@@ -15,20 +15,6 @@
 
 <body>
   <!-- 
-    <div class="story-top">
-      <each loop="item in top">
-        <switch expression="item.type">
-          <case n="'graphic'">
-            <div class="graphic">
-              <if condition="item.value.asset === 'graphic-name.html'">
-                <include src="graphic-name.html"></include>
-              </if>
-            </div>
-          </case>
-        </switch>
-      </each>
-    </div>
-
     <div class="story">
       <each loop="item in body">
         <switch expression="item.type">
@@ -53,7 +39,11 @@
     </div> -->
   <div class="outer-wrapper">
     <div class="wrapper">
-      <div class="slide one"></div>
+      <div class="slide" id="titleSlide">
+
+        <include src="partials/header.html"></include>
+
+      </div>
       <div class="slide two"></div>
       <div class="slide three"></div>
       <div class="slide four"></div>
