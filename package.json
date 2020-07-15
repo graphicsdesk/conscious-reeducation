@@ -18,8 +18,10 @@
     "sass": "^1.26.5"
   },
   "dependencies": {
+    "gsap": "^3.4.0",
     "intersection-observer": "^0.10.0",
     "jquery": "^3.5.1",
+    "scrollmagic": "^2.0.7",
     "text-balancer": "^1.0.5"
   },
   "browserslist": [

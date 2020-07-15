@@ -5,9 +5,15 @@
 
 
 .slide {
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
 }
+
+.background-photo {
+    height: 100%;
+    width: 100%;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -18,11 +24,17 @@ section {
 
 .full-screen {
     display: flex;
-    width: 500vw;
-    max-width: 400%;
+    width: 475vw;
+    max-width: 500%;
     max-height: 100%;
     overflow: hidden;
     height: 100%;
+    /* makes panels the entire window height */
+}
+
+.full-screen2 {
+    display: flex;
+    width: 1000vw;
     /* makes panels the entire window height */
 }
 
@@ -40,27 +52,38 @@ section {
 
 
 #titleSlide {
-    background: url('../assets/Title Screen Illo.JPG') no-repeat;
+    background: url('../assets/Title Screen Illo.JPG') repeat-x;
     background-position: 50% 85%;
     background-size: cover;
-
 }
 
-.one {
-    background: #efdefe;
+#introSlide {
+    background-color: red;
+    display: flex;
+    width: 300vw;
+    max-width: 400%;
+    max-height: 100%;
+    overflow: hidden;
+    height: 100%;
 }
 
-.two {
-    background: #a3f3d3;
+#context {
+    height:100%;
+    width:50%;
+    margin-left:25%;
+    background-color:blue
 }
 
-.three {
-    background: #0bbaa0;
+#section-ships {
+    height: 100%;
+    width:500%;
+    /* The image width times 3 */
+    background: url('../assets/slave ship.jpg') no-repeat;
+    background-position: 50% 50%;
+
+    background-size: cover;
 }
 
-.four {
-    background: #00dfdf;
-}
 
 ::-webkit-scrollbar {
     display: none;

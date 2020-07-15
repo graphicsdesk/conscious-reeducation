@@ -2,6 +2,7 @@ import textBalancer from 'text-balancer';
 import initiatePage from './scripts/page';
 import { intersectTop } from './scripts/utils';
 import $ from "jquery";
+import ScrollMagic from 'scrollmagic';
 
 import { spectate as spectateConfig } from '../package.json';
 
@@ -40,3 +41,12 @@ export function hamburgerTrigger() {
 if (window.innerWidth <= 460) {
   textBalancer.balanceText('#headline, .deck, .image-caption-text');
 }
+
+var controller = new ScrollMagic.Controller({ vertical: false });
+
+new ScrollMagic.Scene({
+  triggerElement: "#trigger",
+  duration: 100, // the scene should last for a scroll distance of 100px
+  offset: 50 // start this scene after scrolling for 50px
+})
+  .addTo(controller); // assign the scene to the controller
