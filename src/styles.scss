@@ -10,6 +10,10 @@
     z-index: 1 !important;
 }
 
+p {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 section {
     display: flex;
     color: #EFEFEF;
@@ -17,7 +21,7 @@ section {
 
 #intro {
     display: flex;
-    width: 1300vw;
+    width: 1500vw;
     height: 100vh;
     overflow: hidden;
 }
@@ -44,7 +48,7 @@ section {
 }
 
 .blue {
-    background-color: blue;
+    background-color: #000;
 }
 
 
@@ -58,21 +62,7 @@ section {
 
 }
 
-#context {
-    background-color: blue;
 
-    #contextImg {
-        width:50%;
-        height:95%;
-        background: url('assets/concept art.jpeg');
-        margin-left:2.5%;
-        margin-top:1.75%;
-    }
-
-    #contextText {
-
-    }
-}
 
 #claim1 {
     background-color: red;
@@ -111,24 +101,55 @@ section {
         line-height: 5.09259vh;
         font-weight: bold;
         margin-top: 5%;
+
+        #now {
+            font-size: 20px;
+            padding: 20px;
+        }
     }
 }
 
+#context {
+    background-color: black;
+
+    #contextImg {
+        width: 50%;
+        height: 95%;
+        background: url('../assets/concept art.jpeg');
+        background-size: cover;
+        margin-left: 2.5%;
+        margin-top: 1.75%;
+        background-position: 25% 50%;
+    }
+
+    #contextBox {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 35%;
+        margin-left: 57.5%;
+        margin-top: -55%;
+    }
+
+    #contextText {
+        color: white;
+        line-height: 4.09259vh;
+        letter-spacing: .005em;
+    }
+}
+
+.smaller {
+    width: 85vw;
+    min-width: 85vw;
+}
 
 .small {
-    width: 80vw;
-    min-width: 80vw;
-
+    width: 95vw;
+    min-width: 95vw;
 }
 
 
 
-
-
-#now {
-    font-size: 20px;
-    padding: 20px;
-}
 
 .red {
     background-color: red;
