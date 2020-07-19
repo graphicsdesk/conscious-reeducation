@@ -4,28 +4,20 @@
 // @import "styles/news-ellipsis";
 
 
-.slide {
-    height: 100%;
-    width: 100vw;
-}
-
 .background-photo {
     height: 100%;
     width: 90vw !important;
-    z-index:1 !important;
+    z-index: 1 !important;
 }
 
 section {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     color: #EFEFEF;
 }
 
 #intro {
     display: flex;
-    width: 1000vw;
+    width: 1300vw;
     height: 100vh;
     overflow: hidden;
 }
@@ -33,13 +25,23 @@ section {
 .full-screen {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
-    z-index:2;
-    /* makes panels the entire window height */
+    z-index: 2;
+
+    .slide {
+        height: 100%;
+        width: 100%;
+    }
 }
 
-
+#start {
+    #titleSlide {
+        background: url('../assets/Title Screen Illo.JPG') repeat-x;
+        background-position: 50% 85%;
+        background-size: cover;
+    }
+}
 
 .blue {
     background-color: blue;
@@ -51,29 +53,25 @@ section {
 }
 
 
-#titleSlide {
-    background: url('../assets/Title Screen Illo.JPG') repeat-x;
-    background-position: 50% 85%;
-    background-size: cover;
-}
-
 .above {
-    z-index:3 !important;
+    z-index: 3 !important;
 
-}
-
-#introSlide {
-    background-color: red;
-    display: flex;
-    width: 300vw;
-    max-width: 400%;
-    max-height: 100%;
-    overflow: hidden;
-    height: 100%;
 }
 
 #context {
-    background-color:blue;
+    background-color: blue;
+
+    #contextImg {
+        width:50%;
+        height:95%;
+        background: url('assets/concept art.jpeg');
+        margin-left:2.5%;
+        margin-top:1.75%;
+    }
+
+    #contextText {
+
+    }
 }
 
 #claim1 {
@@ -82,10 +80,54 @@ section {
 
 #intro1 {
     background-color: red;
+
+    .huge-no {
+        position: absolute;
+        top: 4.90741vh;
+        left: 10.81481vh;
+        width: 55.55556vh;
+        height: 90.18519vh;
+
+        svg {
+            fill: #fff;
+        }
+    }
+
+    .title {
+        top: 3.98148vh;
+        left: 10.36111vh;
+        font-family: Grifinito;
+        color: #fff;
+        font-size: 5.09259vh;
+        line-height: 5.09259vh;
+        letter-spacing: .005em;
+        overflow: hidden;
+        margin-left: 20px;
+    }
+
+    .contain {
+        width: 40%;
+        margin-left: 53%;
+        line-height: 5.09259vh;
+        font-weight: bold;
+        margin-top: 5%;
+    }
 }
 
+
 .small {
-    width:75vw;
+    width: 80vw;
+    min-width: 80vw;
+
+}
+
+
+
+
+
+#now {
+    font-size: 20px;
+    padding: 20px;
 }
 
 .red {
@@ -95,7 +137,6 @@ section {
 #section-ships {
     /* The image width times 3 */
     background: url('../assets/slave ship.jpg');
-    background-position: 50% 50%;
     background-size: cover;
 }
 

@@ -63,5 +63,21 @@ var rellax3 = new Rellax('#section-3', {
   vertical: false,
   horizontal: true,
   zindex:0,
-  speed:-2,
+  speed:-3,
+});
+
+var rellax3 = new Rellax('#section-4', {
+  center: true,
+  vertical: false,
+  horizontal: true,
+  zindex:0,
+  speed:-1,
+});
+
+var rellax4 = new Rellax('#start', {
+  center: true,
+  vertical: false,
+  horizontal: true,
+  zindex:0,
+  speed:1,
 });
