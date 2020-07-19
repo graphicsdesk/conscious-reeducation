@@ -1,12 +1,11 @@
 import textBalancer from 'text-balancer';
 import initiatePage from './scripts/page';
 import { intersectTop } from './scripts/utils';
+import Rellax from 'rellax';
 import $ from "jquery";
-import ScrollMagic from 'scrollmagic';
-
-import { spectate as spectateConfig } from '../package.json';
 
 // Main page initiation
+import { spectate as spectateConfig } from '../package.json';
 
 initiatePage();
 
@@ -42,11 +41,27 @@ if (window.innerWidth <= 460) {
   textBalancer.balanceText('#headline, .deck, .image-caption-text');
 }
 
-var controller = new ScrollMagic.Controller({ vertical: false });
+var rellax = new Rellax('#background-photo', {
+  center: true,
+  speed:-2,
+  vertical: false,
+  horizontal: true,
+  zindex:0
+});
 
-new ScrollMagic.Scene({
-  triggerElement: "#trigger",
-  duration: 100, // the scene should last for a scroll distance of 100px
-  offset: 50 // start this scene after scrolling for 50px
-})
-  .addTo(controller); // assign the scene to the controller
+var rellax2 = new Rellax('#section-2', {
+  center: true,
+  vertical: false,
+  horizontal: true,
+  zindex:1,
+  speed:-2,
+
+});
+
+var rellax3 = new Rellax('#section-3', {
+  center: true,
+  vertical: false,
+  horizontal: true,
+  zindex:0,
+  speed:-2,
+});

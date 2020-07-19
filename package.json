@@ -21,6 +21,9 @@
     "gsap": "^3.4.0",
     "intersection-observer": "^0.10.0",
     "jquery": "^3.5.1",
+    "re": "^0.1.4",
+    "rellax": "^1.12.1",
+    "scroll": "^3.0.1",
     "scrollmagic": "^2.0.7",
     "text-balancer": "^1.0.5"
   },
