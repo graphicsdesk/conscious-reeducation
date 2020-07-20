@@ -41,43 +41,5 @@ if (window.innerWidth <= 460) {
   textBalancer.balanceText('#headline, .deck, .image-caption-text');
 }
 
-var rellax = new Rellax('#background-photo', {
-  center: true,
-  speed:-2,
-  vertical: false,
-  horizontal: true,
-  zindex:0
-});
 
-var rellax2 = new Rellax('#section-2', {
-  center: true,
-  vertical: false,
-  horizontal: true,
-  zindex:1,
-  speed:-2,
 
-});
-
-var rellax3 = new Rellax('#section-3', {
-  center: true,
-  vertical: false,
-  horizontal: true,
-  zindex:0,
-  speed:-3,
-});
-
-var rellax3 = new Rellax('#section-4', {
-  center: true,
-  vertical: false,
-  horizontal: true,
-  zindex:0,
-  speed:-1,
-});
-
-var rellax4 = new Rellax('#start', {
-  center: true,
-  vertical: false,
-  horizontal: true,
-  zindex:0,
-  speed:1,
-});

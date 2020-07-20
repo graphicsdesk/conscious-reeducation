@@ -7,15 +7,18 @@
 .background-photo {
     height: 100%;
     width: 90vw !important;
-    z-index: 1 !important;
+    z-index: 0 !important;
 }
 
 p {
     font-family: 'Titillium Web', sans-serif;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 section {
-    display: flex;
     color: #EFEFEF;
 }
 
@@ -31,7 +34,7 @@ section {
     width: 100vw;
     height: 100%;
     overflow: hidden;
-    z-index: 2;
+    z-index: 2 !important;
 
     .slide {
         height: 100%;
@@ -52,29 +55,50 @@ section {
 }
 
 
-.orange {
-    background-color: #ea6300;
-}
-
 
 .above {
     z-index: 3 !important;
-
 }
 
 
 
 #claim1 {
     background-color: red;
+
+    #claimOneText {
+        font-size: 30px;
+        width: 35%;
+        margin-left: 5%;
+    }
+
+    #claimHeading {
+        font-family: 'Oswald', sans-serif;
+        color: #fff;
+        font-size: 4.09259vh;
+        line-height: 5.09259vh;
+        letter-spacing: .005em;
+        overflow: hidden;
+    }
+
+    #claimOneImg {
+        width: 50%;
+        height: 80%;
+        background: url('../assets/Structural Racism Illo 1.JPG');
+        background-size: cover;
+        margin-left: 45%;
+        margin-top: -20%;
+        background-position: 50% 50%;
+        box-shadow: 20px 40px 100px rgba(0, 0, 0, .2), 20px 40px 100px rgba(0, 0, 0, .2), 0 0 1px rgba(0, 0, 0, .2)
+    }
 }
 
 #intro1 {
     background-color: red;
 
     .huge-no {
-        position: absolute;
-        top: 4.90741vh;
-        left: 10.81481vh;
+        position: relative;
+        top: -40;
+        left: 40;
         width: 55.55556vh;
         height: 90.18519vh;
 
@@ -83,31 +107,69 @@ section {
         }
     }
 
-    .title {
-        top: 3.98148vh;
-        left: 10.36111vh;
-        font-family: Grifinito;
-        color: #fff;
-        font-size: 5.09259vh;
-        line-height: 5.09259vh;
-        letter-spacing: .005em;
-        overflow: hidden;
-        margin-left: 20px;
-    }
-
-    .contain {
-        width: 40%;
-        margin-left: 53%;
+    #now {
+        position: relative;
+        top: 25%;
         line-height: 5.09259vh;
         font-weight: bold;
-        margin-top: 5%;
-
-        #now {
-            font-size: 20px;
-            padding: 20px;
-        }
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        padding: 20px;
     }
+
 }
+
+.title {
+    top: 3.98148vh;
+    left: 10.36111vh;
+    font-family: Grifinito;
+    color: #fff;
+    font-size: 5.09259vh;
+    line-height: 5.09259vh;
+    letter-spacing: .005em;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+#claim3 {
+    background-color: black;
+    margin-top:2.5%;
+    p {
+        font-size: 7em;
+        color: white;
+        position: relative;
+        top: 0;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        font-family: 'Merriweather', serif;
+        font-weight: 700;
+        text-align:center;
+    }
+
+    h6 {
+        font-size:1em;
+        text-align:center;
+        margin-top:calc(0.125vh / 2 * 1);
+    }
+  
+}
+
+.strikeout {
+    font-size: 1em;
+    line-height: 1em;
+    position: relative;
+  }
+  .strikeout::after {
+    border-bottom: 0.125em solid red;
+    content: "";
+    left: 0;
+    margin-top: calc(0.125em / 2 * -1);
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
 
 #context {
     background-color: black;
@@ -138,6 +200,116 @@ section {
     }
 }
 
+#claimOneInfo {
+    background-color: black;
+
+    #claimOneParagraphs {
+        padding: 20;
+        height: 40%;
+        column-count: 3;
+        font-size: 18px;
+        column-gap: 40px;
+        column-rule-width: 1px;
+
+        #p1,
+        #p2 {
+            margin-top: 0;
+            color: white;
+        }
+    }
+
+    #claimOneImg {
+        width: 50%;
+        height: 55%;
+        background: url('../assets/structural racism.jpg') no-repeat;
+        background-size: contain;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#claim2 {
+    background-color: black;
+
+    #claimTwoText {
+        font-size: 32px;
+        margin-left: 2.5%;
+        color: white;
+    }
+
+    #claimTwoBox {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 40%;
+        margin-left: 55%;
+        margin-top: -50%;
+    }
+
+    #claimTwoHeading {
+        font-family: 'Oswald', sans-serif;
+        color: #fff;
+        font-size: 4.09259vh;
+        line-height: 5.09259vh;
+        letter-spacing: .005em;
+        overflow: hidden;
+    }
+
+    #claimTwoImg {
+        width: 40%;
+        height: 82.5%;
+        background: url('../assets/individualized racism.jpg');
+        background-size: cover;
+        margin-left: 7.5%;
+        margin-top: 5%;
+        background-position: 50% 50%;
+        box-shadow: 20px 40px 100px rgba(0, 0, 0, .2), 20px 40px 100px rgba(0, 0, 0, .2), 0 0 1px rgba(0, 0, 0, .2);
+        border: white 4px solid;
+        transform: rotate(-7.5deg);
+    }
+}
+
+.row {
+    display: flex;
+}
+
+.column1 {
+    flex: 40%;
+}
+
+.column2 {
+    flex: 60%;
+}
+
+#claimTwoInfo {
+    background-color: white;
+
+    #claimTwoInfoImg {
+        width: 100%;
+        height: 100%;
+        background: url('../assets/concept art.jpeg');
+        background-size: cover;
+        background-position: 25% 50%;
+    }
+
+    #claimTwoInfoText {
+        word-wrap: break-word;
+        color: black;
+        line-height: 3.59259vh;
+        width: 80%;
+        font-size: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10;
+        margin-top: 0;
+    }
+}
+
+.smallest {
+    width: 70vw;
+    min-width: 70vw;
+}
+
 .smaller {
     width: 85vw;
     min-width: 85vw;
@@ -149,18 +321,31 @@ section {
 }
 
 
-
-
 .red {
     background-color: red;
 }
 
+.white {
+    background-color: white;
+
+}
+
 #section-ships {
-    /* The image width times 3 */
     background: url('../assets/slave ship.jpg');
     background-size: cover;
 }
 
+#section-police {
+    background: url('../assets/Structural Racism Illo 2.JPG') no-repeat;
+    background-size: cover;
+    width: 150vh !important;
+}
+
+#section-individual {
+    background: url('../assets/Individual Racism Illo.JPG') no-repeat;
+    background-size: cover;
+    width: 150vh !important;
+}
 
 ::-webkit-scrollbar {
     display: none;
