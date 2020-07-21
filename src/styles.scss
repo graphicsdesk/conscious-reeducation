@@ -24,7 +24,7 @@ section {
 
 #intro {
     display: flex;
-    width: 1500vw;
+    width: 1450vw;
     height: 100vh;
     overflow: hidden;
 }
@@ -50,7 +50,7 @@ section {
     }
 }
 
-.blue {
+.black {
     background-color: #000;
 }
 
@@ -80,7 +80,7 @@ section {
         overflow: hidden;
     }
 
-    #claimOneImg {
+    #claim1Img {
         width: 50%;
         height: 80%;
         background: url('../assets/Structural Racism Illo 1.JPG');
@@ -135,7 +135,8 @@ section {
 
 #claim3 {
     background-color: black;
-    margin-top:2.5%;
+    margin-top: 2.5%;
+
     p {
         font-size: 7em;
         color: white;
@@ -145,23 +146,87 @@ section {
         margin-bottom: 2.5%;
         font-family: 'Merriweather', serif;
         font-weight: 700;
-        text-align:center;
+        text-align: center;
     }
 
     h6 {
-        font-size:1em;
-        text-align:center;
-        margin-top:calc(0.125vh / 2 * 1);
+        font-size: 1em;
+        text-align: center;
+        margin-top: calc(0.125vh / 2 * 1);
     }
-  
+
+}
+
+#claimThreeInfo {
+    #rev {
+        text-align: center;
+
+        .underlineRed{
+            margin-bottom:0 !important;
+            border-bottom:2vw solid red;
+            padding-bottom:2px;
+            width:75%;
+        }
+
+        h1 {
+            font-size: 10vw;
+            margin-top: 0;
+            line-height: 20.09259vh;
+            letter-spacing: .01em;
+            color: white;
+            margin-bottom:0;
+        }
+
+        p {
+            color:white;
+            width:75%;
+            margin-top:3.5%;
+            font-size:1.45vw;
+            margin-left:auto;
+            margin-right:auto;
+            display: inline-block; text-align: left;
+        }
+    }
+
+
+}
+
+#conclusion {
+    .underlineRed{
+        margin-bottom:0 !important;
+        border-bottom:.5vw solid red;
+        width:30%;
+
+    }
+    h1 {
+        font-size:4vw;
+        text-align:center;
+        color:white;
+        margin-bottom:2.5%;
+    }
+    p {
+        width:70%;
+        font-size:1.6vw;
+        color:white;
+        text-align:center;
+        line-height: 1.7em;
+
+    }
+}
+
+
+.alignMargin {
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .strikeout {
     font-size: 1em;
     line-height: 1em;
     position: relative;
-  }
-  .strikeout::after {
+}
+
+.strikeout::after {
     border-bottom: 0.125em solid red;
     content: "";
     left: 0;
@@ -169,7 +234,7 @@ section {
     position: absolute;
     right: 0;
     top: 50%;
-  }
+}
 
 #context {
     background-color: black;
@@ -340,6 +405,15 @@ section {
     background-size: cover;
     width: 150vh !important;
 }
+
+
+#section-blm {
+    background: url('../assets/blacklivesmatterfist.png') no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 150vh !important;
+}
+
 
 #section-individual {
     background: url('../assets/Individual Racism Illo.JPG') no-repeat;
