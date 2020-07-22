@@ -161,11 +161,11 @@ section {
     #rev {
         text-align: center;
 
-        .underlineRed{
-            margin-bottom:0 !important;
-            border-bottom:2vw solid red;
-            padding-bottom:2px;
-            width:75%;
+        .underlineRed {
+            margin-bottom: 0 !important;
+            border-bottom: 2vw solid red;
+            padding-bottom: 2px;
+            width: 75%;
         }
 
         h1 {
@@ -174,17 +174,18 @@ section {
             line-height: 20.09259vh;
             letter-spacing: .01em;
             color: white;
-            margin-bottom:0;
+            margin-bottom: 0;
         }
 
         p {
-            color:white;
-            width:75%;
-            margin-top:3.5%;
-            font-size:1.45vw;
-            margin-left:auto;
-            margin-right:auto;
-            display: inline-block; text-align: left;
+            color: white;
+            width: 75%;
+            margin-top: 3.5%;
+            font-size: 1.45vw;
+            margin-left: auto;
+            margin-right: auto;
+            display: inline-block;
+            text-align: left;
         }
     }
 
@@ -192,32 +193,36 @@ section {
 }
 
 #conclusion {
-    .underlineRed{
-        margin-bottom:0 !important;
-        border-bottom:.5vw solid red;
-        width:30%;
+    .underlineRed {
+        margin-bottom: 0 !important;
+        border-bottom: .5vw solid red;
+        width: 30%;
+        
 
     }
+
     h1 {
-        font-size:4vw;
-        text-align:center;
-        color:white;
-        margin-bottom:2.5%;
+        font-size: 4vw;
+        text-align: center;
+        color: white;
+        margin-bottom: 2.5%;
     }
-    p {
-        width:70%;
-        font-size:1.6vw;
-        color:white;
-        text-align:center;
-        line-height: 1.7em;
 
+    p {
+        width: 70%;
+        font-size: 1.6vw;
+        color: white;
+        text-align: left;
+        line-height: 1.7em;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 
 .alignMargin {
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .strikeout {
@@ -238,6 +243,10 @@ section {
 
 #context {
     background-color: black;
+
+    p {
+        color: white;
+    }
 
     #contextImg {
         width: 50%;
@@ -276,8 +285,7 @@ section {
         column-gap: 40px;
         column-rule-width: 1px;
 
-        #p1,
-        #p2 {
+        p {
             margin-top: 0;
             color: white;
         }
@@ -336,6 +344,7 @@ section {
 
 .row {
     display: flex;
+    height:100%;
 }
 
 .column1 {
@@ -349,6 +358,18 @@ section {
 #claimTwoInfo {
     background-color: white;
 
+    p {
+        word-wrap: break-word;
+        color: black;
+        line-height: 3.59259vh;
+        width: 80%;
+        font-size: 1.05vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10;
+        margin-top: 0;
+    }
+
     #claimTwoInfoImg {
         width: 100%;
         height: 100%;
@@ -357,17 +378,6 @@ section {
         background-position: 25% 50%;
     }
 
-    #claimTwoInfoText {
-        word-wrap: break-word;
-        color: black;
-        line-height: 3.59259vh;
-        width: 80%;
-        font-size: 1em;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10;
-        margin-top: 0;
-    }
 }
 
 .smallest {
@@ -392,7 +402,6 @@ section {
 
 .white {
     background-color: white;
-
 }
 
 #section-ships {
