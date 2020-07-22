@@ -23,6 +23,57 @@
         "value": "The roots of race and racism in America go back to 1619 when that first ship arrived in the colony of Virginia. Without an understanding of what happened during that time period, you are unable to perceive systemic racism as a system of gears that acts upon every aspect of society. Unless you can take this critical step back to see the entire system, you cannot recognize how the ways in which we’ve been socialized within American society haves entrenched white supremacy deep into our collective psyche. Consider this: A well-meaning teacher, statistically a white woman, stands in front of a classroom filled with students of color. She tries to encourage them, urge them to do better, to graduate, enroll in college, so they could live in a better neighborhood. Unbeknownst to the teacher, a “better neighborhood” is subconsciously equated with a white neighborhood. “A better school district” usually corresponds with a whiter school district, and so on. We already speak in the language of race everyday, so why not do so from a point of consciousness where we can truly understand our impact and how it aids in white supremacy. By exploring the resources provided throughout this project, you can start to build your knowledge and empathy of the history of this country, which was founded upon the social construction of race."
       }
     ],
+    "claim1_wall": [
+      {
+        "type": "panel",
+        "value": {
+          "name": "<i>Stamped from the Beginning: The Definitive History of Racist Ideas in America</i> by Ibram X Kendi or <i>Stamped: Racism, Antiracism, and You</i> by Jason Reynolds and Ibram X Kendi",
+          "asset": ""
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "name": "<i>The New Jim Crow: Mass Incarceration in the Age of Colorblindness</i> by Michelle Alexander",
+          "asset": ""
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "name": "<i>The 1619 Project </i>by the New York Times",
+          "asset": ""
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "name": "<i>13th</i> (2016), available on Netflix",
+          "asset": ""
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "name": "<i>White Fragility: Why It’s So Hard For White People to Talk About Racism</i> by Robin DiAngelo",
+          "asset": ""
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "name": "<i>\"Why Are All The Black Kids Sitting Together in the Cafeteria?\": A Psychologist Explains the Development of Racial Identity</i> by Beverly Daniel Tatum",
+          "asset": ""
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "name": "<i>Racism Without Racists: </i><i>Color-Blind Racism and the Persistence of Racial Inequality in America</i> by Eduardo Bonilla-Silva",
+          "asset": ""
+        }
+      }
+    ],
     "claim2_text": [
       {
         "type": "text",

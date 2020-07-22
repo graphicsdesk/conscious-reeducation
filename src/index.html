@@ -124,19 +124,24 @@
             <div id="claimOneImg"></div>
           </div>
       </section>
-
-      <section class="red">
-        <div class="full-screen small" id="section-6">
-          <div class="slide" id="claim1">
-            <p> Wall</p>
-          </div>
-        </div>
-      </section>
     </each>
 
+
+    <section class="red">
+      <div class="full-screen small" id="section-6">
+        <div class="slide" id="claim1">
+          <div class="gallery">
+            <each loop="item in body['claim1_wall']">
+              <include src="partials/wall.html"></include>
+              </case>
+            </each>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <each loop="item in body['claim2_text']">
-
-
       <section class="blue above">
         <div class="full-screen small" id="section-7">
           <div class="slide" id="claim2">
@@ -226,7 +231,7 @@
         <div class="full-screen smallest" id="section-13">
           <div class="slide" id="conclusion">
             <h1 class="alignMargin underlineRed"> Conclusion </h1>
-            <include  src="partials/paragraph.html"></include>
+            <include src="partials/paragraph.html"></include>
           </div>
         </div>
       </section>
