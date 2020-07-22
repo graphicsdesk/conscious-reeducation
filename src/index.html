@@ -50,37 +50,37 @@
     </div>
   </div> -->
   <main id="intro" role="main">
-    <section class="red">
-      <div class="full-screen above" id="start">
-        <div class="slide" id="titleSlide">
-          <include src="partials/header.html"></include>
+    <each loop="item in body['intro_text']">
+      <section class="red">
+        <div class="full-screen above" id="start">
+          <div class="slide" id="titleSlide">
+            <include src="partials/header.html"></include>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="red">
-      <div class="full-screen smaller red" id="section-2">
-        <div class="slide row" id="intro1">
-          <div class="column1">
-            <h2 class="title">Overview</h2>
-            <div class="huge-no">
-              <svg viewBox="0 0 1200 1948">
-                <path d="M1199.5,1948V0L0.5,600.9v658.5l1089.2-540.5c60.4-30.2,98.8-5.5,98.8,60.4V1948H1199.5z"></path>
-              </svg>
+      </section>
+      <section class="red">
+        <div class="full-screen smaller red" id="section-2">
+          <div class="slide row" id="intro1">
+            <div class="column1">
+              <h2 class="title">Overview</h2>
+              <div class="huge-no">
+                <svg viewBox="0 0 1200 1948">
+                  <path d="M1199.5,1948V0L0.5,600.9v658.5l1089.2-540.5c60.4-30.2,98.8-5.5,98.8,60.4V1948H1199.5z">
+                  </path>
+                </svg>
+              </div>
+            </div>
+            <div class="column2">
+              <p id="now">
+                <include src="partials/paragraph.html"></include>
+              </p>
             </div>
           </div>
-          <div class="column2">
-            <p id="now">It’s now been 401 years since a ship appeared on the horizon near Point Comfort, a port in the
-              English colony of Virginia. That ship carried more than twenty enslaved people to what would later become
-              the United States. The stories of those first enslaved people and their descendants had long gone untold
-              because the American education system does not center this profound, and shameful, truth as the seed from
-              which we experience race in America today. </p>
-          </div>
         </div>
-      </div>
-    </section>
-
-    <section id="section-ships" class="background-photo">
-    </section>
+      </section>
+      <section id="section-ships" class="background-photo">
+      </section>
+    </each>
 
     <section class="blue above">
       <div class="full-screen small" id="section-3">
@@ -270,7 +270,8 @@
       <div class="full-screen smallest" id="section-13">
         <div class="slide" id="conclusion">
           <h1 class="alignMargin underlineRed"> Conclusion </h1>
-          <p class="alignMargin">Unlearning is the first step in our collective liberation, but it is not the final step. We have been
+          <p class="alignMargin">Unlearning is the first step in our collective liberation, but it is not the final
+            step. We have been
             socialized in a system that privileges racial illiteracy. You can reach the highest office of this land
             without demonstrating a true understanding of race and racism or how policies continue to exacerbate the
             racial wealth gap. You can stand before students of color and measure their intelligence through how well

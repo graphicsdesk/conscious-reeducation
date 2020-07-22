@@ -3,6 +3,8 @@
   <if condition="typeof deck !== 'undefined'">
     <p class="deck">{{ deck }}</p>
   </if>
+  <p >Author: {{ author }}</p>
+  <p >Bio: {{ bio }}</p>
   <p class="byline inline-credits">
     <each
       loop="item in typeof byline === 'undefined' ? [] : byline.split('\n')"

@@ -1,30 +1,39 @@
 {
   "headline": "A Conscious Reeducation",
   "date": "October 17, 2019",
-  "byline": "By Phillip Marcus, Educator and Intellectual\nProduced by: <a href=\"https://www.columbiaspectator.com/contributors/Hong-Sen-Du/\">Hong Sen Du</a>",
-  "top": [],
-  "body": [
-    {
-      "type": "text",
-      "value": "Leadin. Something to draw the reader in. Graphics is the only visuals and words desk at the Spectator."
-    },
-    {
-      "type": "text",
-      "value": "Nutgraf. What is the meat of the story? Why does this matter?"
-    },
-    {
-      "type": "graphic",
-      "value": {
-        "asset": ""
+  "author": "Phillip Marcus, Jr.",
+  "bio": "Phillip Marcus, Jr. is an abolitionist educator and assistant principal. He teaches in the Adolescent Literacy and English Education Department at Hunter College in New York City.",
+  "byline": "Produced by: <a href=\"https://www.columbiaspectator.com/contributors/Hong-Sen-Du/\">Hong Sen Du</a>",
+  "titles": {
+    "intro_title": "<b>Why reteaching is necessary (how race is taught in America currently/ why this reading list is important) </b>",
+    "claim1_title": "<b>Structural racism goes deeper than you think (why structural racism is overlooked and how important is it reteach history as it directly affects how issues of race are perceived now) </b>",
+    "claim2_title": "<b>Better understanding your individual experiences can contextualize racism (or, why looking to more individualistic experiences with race can aid you in contextualizing yourself within it whether you are white or Black).</b>",
+    "claim3_title": "<b>These protests aren’t new (how revolutionary ideas during this climate are frowned upon)</b>"
+  },
+  "body": {
+    "intro_text": [
+      {
+        "type": "text",
+        "value": "It’s now been 401 years since a ship appeared on the horizon near Point Comfort, a port in the English colony of Virginia. That ship carried more than 20 enslaved people to what would later become the United States. The stories of those first enslaved people and their descendants had long gone untold because the American education system does not center this profound and shameful truth as the seed from which we experience race in America today. As we watch the latest public outrage stemming from the murders of George Floyd, Breonna Taylor, and Ahmaud Arbery, some may find themselves experiencing dissonance that they had been so unaware of the history of policing, plantation capitalism, and racist government policies created with the intent to limit Black progress. The American education system does not prioritize the teaching of the enslavement period or the idea of race and racism as evidenced by the lack of knowledge surrounding the economic and political achievements of communities of color. Many of us navigate the Pre-K-12 school experience, which includes state-mandated assessments and honors and AP courses, and never learn about Black Wall Street, Black inventions, or Black theories. The end result is that many of us go through our school careers racially illiterate, uncomfortable when engaging insensitive to the stress of  conversations about race, and ignorant that our thoughts and behaviors fuel white supremacy, even the most well-meaning amongst us. The reality is that our skin color and zip codes shape every experience in this country and act as determining factors for quality of life and life expectancy for those yet to be born. The solution is to unlearn the whitewashed curriculum we were immersed in for most of our lives and relearn the history of our country’s founding through a conscious lens to truly understand what is happening in the streets and finally take anti-racist actions."
       }
-    },
-    {
-      "type": "text",
-      "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
-    },
-    {
-      "type": "text",
-      "value": "<i>Jun Yi Zhang is a Graphics reporter. She can be contacted at </i><a href=\"mailto:junyi.zhang@columbiaspectator.com\"><i>junyi.zhang@columbiaspectator.com</i></a><i>.</i>"
-    }
-  ]
+    ],
+    "claim1_text": [
+      {
+        "type": "text",
+        "value": "The roots of race and racism in America go back to 1619 when that first ship arrived in the colony of Virginia. Without an understanding of what happened during that time period, you are unable to perceive systemic racism as a system of gears that acts upon every aspect of society. Unless you can take this critical step back to see the entire system, you cannot recognize how the ways in which we’ve been socialized within American society haves entrenched white supremacy deep into our collective psyche. Consider this: A well-meaning teacher, statistically a white woman, stands in front of a classroom filled with students of color. She tries to encourage them, urge them to do better, to graduate, enroll in college, so they could live in a better neighborhood. Unbeknownst to the teacher, a “better neighborhood” is subconsciously equated with a white neighborhood. “A better school district” usually corresponds with a whiter school district, and so on. We already speak in the language of race everyday, so why not do so from a point of consciousness where we can truly understand our impact and how it aids in white supremacy. By exploring the resources provided throughout this project, you can start to build your knowledge and empathy of the history of this country, which was founded upon the social construction of race."
+      }
+    ],
+    "claim2_text": [
+      {
+        "type": "text",
+        "value": "In his work <i>Courageous Conversations about Race</i>,<i> </i>Glenn E. Singleton urges us to examine race through the personal, local, and immediate. This forces us to understand our own beliefs, values, and expectations about race. This exploration helps us to think more critically and empathetically about how we show up in any given space that we occupy. In American society today, it is difficult for us to connect our privileges— especially those that are invisible to us due to historically redlined neighborhoods and subsequent discrimination within real estate—  with the oppression of communities of color. Even more, we buy into the idea that our privileges are earned due to “hard work” rather than critically interrogate the impact of generational wealth  being as a result of stolen labor and racist government policies designed to limit the progress of communities of color. Our lack of exposure to how these oppressive systems work makes it easy to buy into the idea of “meritocracy” and we miss the point that this fictional narrative is a tool of white supremacy. As we question the qualifications of people of color in our schools and workplaces, using affirmative action to maintain a sense of “superiority,” we must also recognize that the historic structures within American society have rooted a kind of “affirmative action” for white people in every aspect of life. As we consider our own experiences, studying the experiences of others can help us to better see how our false notions of success coincide with someone else’s oppression."
+      }
+    ],
+    "claim3_text": [
+      {
+        "type": "text",
+        "value": "The idea of a revolution might be a frightening thought to anyone who has benefited from the racial caste system in America, but simply told, this country was born from revolution. Revolution against British policing of the American colonies led to modern-day America. Revolution against French colonialism in Haiti led to the first Black-led republic. Revolution in South Africa led to the end of apartheid. While we may look unfavorably at the practices of revolution when we apply the lens of race in this country, it has long been a vehicle for much of the progress we have made as a society, which everyone benefits from. Black people are 13% of our country’s population but have consistently forced America to actualize its founding promises. As long as the conditions that caused the American Revolution are still in existence, the need for revolution remains just as strong today."
+      }
+    ]
+  }
 }
