@@ -436,40 +436,63 @@ section {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 23.3333vw);
-    grid-template-rows: repeat(3, 33.3vh);
+    grid-template-columns: repeat(3, 23.4vw);
+    grid-template-rows: repeat(3, 33.333vh);
 }
 
 
 
 #panel0 {
-    background: url('../assets/stamped_kendi_reynolds.jpg') 50% 50% / cover no-repeat;
+    background: url('../assets/wall1/stamped_kendi_reynolds.jpg') 50% 60% / cover no-repeat;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
+}
+#panel1 {
+    background: url('../assets/wall1/the1619Project_nyt.jpg') 50% 50% / cover no-repeat;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
-#panel1 {
-    background: url('../assets/theNewJimCrow_alexander.jpg') 50% 50% / cover no-repeat;
+#panel2 {
+    background: url('../assets/wall1/theNewJimCrow_alexander.jpg') 50% 50% / cover no-repeat;
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
+#panel3 {
+    background: url('../assets/wall1/whiteFragility_diangelo.jpg') 0% 0% / cover no-repeat;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#panel4 {
+    background: url('../assets/wall1/whyAreAllTheBlackKidsSittingTogether_tatum.jpg') 0% 37.5% / cover no-repeat;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#panel5 {
+    background: url('../assets/wall1/racismWithoutRacists_bonilla-silva.jpg') 0% 40% / cover no-repeat;
+
+}
+#panel6 {
+    background: url('../assets/wall1/13th_duvernay.jpg') 0% 37.5% / cover no-repeat;
+  
+}
 a:hover {
     text-decoration: none;
 }
 
 .gallery__item:hover .text {
-    opacity: 0.8;
+    opacity: 0.9;
 
 }
 
 .text {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.8);
     opacity: 0;
 
-    font-size: 20px;
+    font-size: 1.5vw;
     /* Black w/opacity/see-through */
     height: 100%;
     width: 100%;
@@ -483,4 +506,5 @@ a:hover {
 .text p {
     margin: 0;
     color: white;
+    width:95%;
 }

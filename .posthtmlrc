@@ -38,49 +38,49 @@
             {
               "type": "panel",
               "value": {
-                "id": "panel3",
-                "name": "<i>The New Jim Crow: Mass Incarceration in the Age of Colorblindness</i> by Michelle Alexander",
-                "link": "https://www.amazon.com/Stamped-Antiracism-National-Award-winning-Beginning/dp/0316453692"
-              }
-            },
-            {
-              "type": "panel",
-              "value": {
                 "id": "panel1",
                 "name": "<i>The 1619 Project </i>by the New York Times",
-                "link": ""
+                "link": "https://www.nytimes.com/interactive/2019/08/14/magazine/1619-america-slavery.html"
               }
             },
             {
               "type": "panel",
               "value": {
-                "id": "panel3",
-                "name": "<i>13th</i> (2016), available on Netflix",
-                "link": ""
-              }
-            },
-            {
-              "type": "panel",
-              "value": {
-                "id": "panel4",
-                "name": "<i>White Fragility: Why It’s So Hard For White People to Talk About Racism</i> by Robin DiAngelo",
-                "link": ""
-              }
-            },
-            {
-              "type": "panel",
-              "value": {
-                "id": "panel5",
-                "name": "<i>\"Why Are All The Black Kids Sitting Together in the Cafeteria?\": A Psychologist Explains the Development of Racial Identity</i> by Beverly Daniel Tatum",
-                "link": ""
+                "id": "panel2",
+                "name": "<i>The New Jim Crow: Mass Incarceration in the Age of Colorblindness</i> by Michelle Alexander",
+                "link": "https://newjimcrow.com/"
               }
             },
             {
               "type": "panel",
               "value": {
                 "id": "panel6",
+                "name": "<i>13th</i> (2016), available on Netflix",
+                "link": "https://www.netflix.com/title/80091741"
+              }
+            },
+            {
+              "type": "panel",
+              "value": {
+                "id": "panel3",
+                "name": "<i>White Fragility: Why It’s So Hard For White People to Talk About Racism</i> by Robin DiAngelo",
+                "link": "https://www.amazon.com/White-Fragility-People-About-Racism/dp/0807047414"
+              }
+            },
+            {
+              "type": "panel",
+              "value": {
+                "id": "panel4",
+                "name": "<i>\"Why Are All The Black Kids Sitting Together in the Cafeteria?\": A Psychologist Explains the Development of Racial Identity</i> by Beverly Daniel Tatum",
+                "link": "https://www.amazon.com/Black-Kids-Sitting-Together-Cafeteria/dp/0465060684"
+              }
+            },
+            {
+              "type": "panel",
+              "value": {
+                "id": "panel5",
                 "name": "<i>Racism Without Racists: </i><i>Color-Blind Racism and the Persistence of Racial Inequality in America</i> by Eduardo Bonilla-Silva",
-                "link": ""
+                "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
               }
             }
           ],
