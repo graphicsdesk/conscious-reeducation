@@ -27,13 +27,15 @@
       {
         "type": "panel",
         "value": {
+          "id": "panel0",
           "name": "<i>Stamped from the Beginning: The Definitive History of Racist Ideas in America</i> by Ibram X Kendi or <i>Stamped: Racism, Antiracism, and You</i> by Jason Reynolds and Ibram X Kendi",
-          "asset": ""
+          "asset": "stamped_kendi_reynolds.jpg"
         }
       },
       {
         "type": "panel",
         "value": {
+          "id": "panel1",
           "name": "<i>The New Jim Crow: Mass Incarceration in the Age of Colorblindness</i> by Michelle Alexander",
           "asset": ""
         }
@@ -41,6 +43,7 @@
       {
         "type": "panel",
         "value": {
+          "id": "panel2",
           "name": "<i>The 1619 Project </i>by the New York Times",
           "asset": ""
         }
@@ -48,6 +51,7 @@
       {
         "type": "panel",
         "value": {
+          "id": "panel3",
           "name": "<i>13th</i> (2016), available on Netflix",
           "asset": ""
         }
@@ -55,6 +59,7 @@
       {
         "type": "panel",
         "value": {
+          "id": "panel4",
           "name": "<i>White Fragility: Why It’s So Hard For White People to Talk About Racism</i> by Robin DiAngelo",
           "asset": ""
         }
@@ -62,6 +67,7 @@
       {
         "type": "panel",
         "value": {
+          "id": "panel5",
           "name": "<i>\"Why Are All The Black Kids Sitting Together in the Cafeteria?\": A Psychologist Explains the Development of Racial Identity</i> by Beverly Daniel Tatum",
           "asset": ""
         }
@@ -69,6 +75,7 @@
       {
         "type": "panel",
         "value": {
+          "id": "panel6",
           "name": "<i>Racism Without Racists: </i><i>Color-Blind Racism and the Persistence of Racial Inequality in America</i> by Eduardo Bonilla-Silva",
           "asset": ""
         }
