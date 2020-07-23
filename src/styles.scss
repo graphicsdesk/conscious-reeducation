@@ -441,18 +441,19 @@ section {
         grid-template-columns: repeat(3, 23.4vw);
         grid-template-rows: repeat(3, 33.333vh);
     }
-    
+
     #panel0 {
         background: url('../assets/wall1/stamped_kendi_reynolds.jpg') 50% 60% / cover no-repeat;
         grid-row-start: 1;
         grid-row-end: 2;
     }
+
     #panel1 {
         background: url('../assets/wall1/the1619Project_nyt.jpg') 50% 50% / cover no-repeat;
         grid-column-start: 2;
         grid-column-end: 3;
     }
-    
+
     #panel2 {
         background: url('../assets/wall1/theNewJimCrow_alexander.jpg') 50% 50% / cover no-repeat;
         grid-column-start: 3;
@@ -460,21 +461,24 @@ section {
         grid-row-start: 1;
         grid-row-end: 3;
     }
-    
+
     #panel3 {
         background: url('../assets/wall1/whiteFragility_diangelo.jpg') 0% 0% / cover no-repeat;
         grid-row-start: 2;
         grid-row-end: 4;
     }
+
     #panel4 {
         background: url('../assets/wall1/whyAreAllTheBlackKidsSittingTogether_tatum.jpg') 0% 37.5% / cover no-repeat;
         grid-row-start: 2;
         grid-row-end: 3;
     }
+
     #panel5 {
         background: url('../assets/wall1/racismWithoutRacists_bonilla-silva.jpg') 0% 40% / cover no-repeat;
-    
+
     }
+
     #panel6 {
         background: url('../assets/wall1/13th_duvernay.jpg') 0% 37.5% / cover no-repeat;
     }
@@ -487,7 +491,43 @@ section {
         grid-template-columns: repeat(3, 23.4vw);
         grid-template-rows: repeat(3, 33.333vh);
     }
+
+    #panel29 {
+        background: url('../assets/wall3/blackFeministThough_collins.jpg') 0% 0% / cover no-repeat;
+    }
+
+    #panel30 {
+        background: url('../assets/wall3/sisterOutsider_lorde.jpg') 0% 5% / cover no-repeat;
+    }
+
+    #panel31 {
+        background: url('../assets/wall3/soYouWantToTalkAboutRace_oluo.jpg') 0% 50% / cover no-repeat;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    #panel32 {
+        background: url('../assets/wall3/hoodFeminism_kendall.jpg') 0% 0% / cover no-repeat;
+    }
+
+    #panel33 {
+        background: url('../assets/wall3/eloquentRage_cooper.jpg') 0% 10% / cover no-repeat;
+    }
+
+    #panel34 {
+        background: url('../assets/wall3/thisBridgeCalledMyBack_moraga_anzaldua.jpg') 0% 0% / cover no-repeat;
+    }
+
+    #panel35 {
+        background: url('../assets/wall3/theBlackPanthers.jpg') 0% 37.5% / cover no-repeat;
+    }
+
+    #panel36 {
+        background: url('../assets/wall3/hoodratToHeadwrap.jpg') 0% 0% / cover no-repeat;
+    }
+
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -515,5 +555,5 @@ a:hover {
 .text p {
     margin: 0;
     color: white;
-    width:95%;
+    width: 95%;
 }
