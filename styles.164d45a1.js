@@ -189,4 +189,294 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../assets/Title Screen Illo.JPG":[["Title Screen Illo.5323e905.JPG","../assets/Title Screen Illo.JPG"],"../assets/Title Screen Illo.JPG"],"./../assets/Structural Racism Illo 1.JPG":[["Structural Racism Illo 1.faad85bc.JPG","../assets/Structural Racism Illo 1.JPG"],"../assets/Structural Racism Illo 1.JPG"],"./../assets/concept art.jpeg":[["concept art.3f599986.jpeg","../assets/concept art.jpeg"],"../assets/concept art.jpeg"],"./../assets/structural racism.jpg":[["structural racism.59622d22.jpg","../assets/structural racism.jpg"],"../assets/structural racism.jpg"],"./../assets/individualizedracism.jpg":[["individualizedracism.445baa71.jpg","../assets/individualizedracism.jpg"],"../assets/individualizedracism.jpg"],"./../assets/slave ship.jpg":[["slave ship.6d5fb196.jpg","../assets/slave ship.jpg"],"../assets/slave ship.jpg"],"./../assets/Structural Racism Illo 2.JPG":[["Structural Racism Illo 2.41a6189e.JPG","../assets/Structural Racism Illo 2.JPG"],"../assets/Structural Racism Illo 2.JPG"],"./../assets/blacklivesmatterfist.png":[["blacklivesmatterfist.88902eea.png","../assets/blacklivesmatterfist.png"],"../assets/blacklivesmatterfist.png"],"./../assets/Individual Racism Illo.JPG":[["Individual Racism Illo.97eb236a.JPG","../assets/Individual Racism Illo.JPG"],"../assets/Individual Racism Illo.JPG"],"./../assets/wall1/stamped_kendi_reynolds.jpg":[["stamped_kendi_reynolds.60aa6e34.jpg","../assets/wall1/stamped_kendi_reynolds.jpg"],"../assets/wall1/stamped_kendi_reynolds.jpg"],"./../assets/wall1/the1619Project_nyt.jpg":[["the1619Project_nyt.033bc388.jpg","../assets/wall1/the1619Project_nyt.jpg"],"../assets/wall1/the1619Project_nyt.jpg"],"./../assets/wall1/theNewJimCrow_alexander.jpg":[["theNewJimCrow_alexander.e607c00f.jpg","../assets/wall1/theNewJimCrow_alexander.jpg"],"../assets/wall1/theNewJimCrow_alexander.jpg"],"./../assets/wall1/whiteFragility_diangelo.jpg":[["whiteFragility_diangelo.aeaad86f.jpg","../assets/wall1/whiteFragility_diangelo.jpg"],"../assets/wall1/whiteFragility_diangelo.jpg"],"./../assets/wall1/whyAreAllTheBlackKidsSittingTogether_tatum.jpg":[["whyAreAllTheBlackKidsSittingTogether_tatum.e0871633.jpg","../assets/wall1/whyAreAllTheBlackKidsSittingTogether_tatum.jpg"],"../assets/wall1/whyAreAllTheBlackKidsSittingTogether_tatum.jpg"],"./../assets/wall1/racismWithoutRacists_bonilla-silva.jpg":[["racismWithoutRacists_bonilla-silva.3d47eac0.jpg","../assets/wall1/racismWithoutRacists_bonilla-silva.jpg"],"../assets/wall1/racismWithoutRacists_bonilla-silva.jpg"],"./../assets/wall1/13th_duvernay.jpg":[["13th_duvernay.bda2274f.jpg","../assets/wall1/13th_duvernay.jpg"],"../assets/wall1/13th_duvernay.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}]
+},{"./../assets/TitleScreenIllo.JPG":[["TitleScreenIllo.062be650.JPG","../assets/TitleScreenIllo.JPG"],"../assets/TitleScreenIllo.JPG"],"./../assets/StructuralRacismIllo1.JPG":[["StructuralRacismIllo1.7ef45e36.JPG","../assets/StructuralRacismIllo1.JPG"],"../assets/StructuralRacismIllo1.JPG"],"./../assets/conceptart.jpeg":[["conceptart.7ecd6211.jpeg","../assets/conceptart.jpeg"],"../assets/conceptart.jpeg"],"./../assets/structuralracism.jpg":[["structuralracism.af3b11bd.jpg","../assets/structuralracism.jpg"],"../assets/structuralracism.jpg"],"./../assets/individualizedracism.jpg":[["individualizedracism.445baa71.jpg","../assets/individualizedracism.jpg"],"../assets/individualizedracism.jpg"],"./../assets/slaveship.jpg":[["slaveship.80288efd.jpg","../assets/slaveship.jpg"],"../assets/slaveship.jpg"],"./../assets/StructuralRacismIllo2.JPG":[["StructuralRacismIllo2.e77ba0b3.JPG","../assets/StructuralRacismIllo2.JPG"],"../assets/StructuralRacismIllo2.JPG"],"./../assets/blacklivesmatterfist.png":[["blacklivesmatterfist.88902eea.png","../assets/blacklivesmatterfist.png"],"../assets/blacklivesmatterfist.png"],"./../assets/IndividualRacismIllo.JPG":[["IndividualRacismIllo.9b80bfd8.JPG","../assets/IndividualRacismIllo.JPG"],"../assets/IndividualRacismIllo.JPG"],"./../assets/wall1/stamped_kendi_reynolds.jpg":[["stamped_kendi_reynolds.60aa6e34.jpg","../assets/wall1/stamped_kendi_reynolds.jpg"],"../assets/wall1/stamped_kendi_reynolds.jpg"],"./../assets/wall1/the1619Project_nyt.jpg":[["the1619Project_nyt.033bc388.jpg","../assets/wall1/the1619Project_nyt.jpg"],"../assets/wall1/the1619Project_nyt.jpg"],"./../assets/wall1/theNewJimCrow_alexander.jpg":[["theNewJimCrow_alexander.e607c00f.jpg","../assets/wall1/theNewJimCrow_alexander.jpg"],"../assets/wall1/theNewJimCrow_alexander.jpg"],"./../assets/wall1/whiteFragility_diangelo.jpg":[["whiteFragility_diangelo.aeaad86f.jpg","../assets/wall1/whiteFragility_diangelo.jpg"],"../assets/wall1/whiteFragility_diangelo.jpg"],"./../assets/wall1/whyAreAllTheBlackKidsSittingTogether_tatum.jpg":[["whyAreAllTheBlackKidsSittingTogether_tatum.e0871633.jpg","../assets/wall1/whyAreAllTheBlackKidsSittingTogether_tatum.jpg"],"../assets/wall1/whyAreAllTheBlackKidsSittingTogether_tatum.jpg"],"./../assets/wall1/racismWithoutRacists_bonilla-silva.jpg":[["racismWithoutRacists_bonilla-silva.3d47eac0.jpg","../assets/wall1/racismWithoutRacists_bonilla-silva.jpg"],"../assets/wall1/racismWithoutRacists_bonilla-silva.jpg"],"./../assets/wall1/13th_duvernay.jpg":[["13th_duvernay.bda2274f.jpg","../assets/wall1/13th_duvernay.jpg"],"../assets/wall1/13th_duvernay.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+var global = arguments[3];
+var OVERLAY_ID = '__parcel__error__overlay__';
+var OldModule = module.bundle.Module;
+
+function Module(moduleName) {
+  OldModule.call(this, moduleName);
+  this.hot = {
+    data: module.bundle.hotData,
+    _acceptCallbacks: [],
+    _disposeCallbacks: [],
+    accept: function (fn) {
+      this._acceptCallbacks.push(fn || function () {});
+    },
+    dispose: function (fn) {
+      this._disposeCallbacks.push(fn);
+    }
+  };
+  module.bundle.hotData = null;
+}
+
+module.bundle.Module = Module;
+var checkedAssets, assetsToAccept;
+var parent = module.bundle.parent;
+
+if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
+  var hostname = "" || location.hostname;
+  var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50433" + '/');
+
+  ws.onmessage = function (event) {
+    checkedAssets = {};
+    assetsToAccept = [];
+    var data = JSON.parse(event.data);
+
+    if (data.type === 'update') {
+      var handled = false;
+      data.assets.forEach(function (asset) {
+        if (!asset.isNew) {
+          var didAccept = hmrAcceptCheck(global.parcelRequire, asset.id);
+
+          if (didAccept) {
+            handled = true;
+          }
+        }
+      }); // Enable HMR for CSS by default.
+
+      handled = handled || data.assets.every(function (asset) {
+        return asset.type === 'css' && asset.generated.js;
+      });
+
+      if (handled) {
+        console.clear();
+        data.assets.forEach(function (asset) {
+          hmrApply(global.parcelRequire, asset);
+        });
+        assetsToAccept.forEach(function (v) {
+          hmrAcceptRun(v[0], v[1]);
+        });
+      } else if (location.reload) {
+        // `location` global exists in a web worker context but lacks `.reload()` function.
+        location.reload();
+      }
+    }
+
+    if (data.type === 'reload') {
+      ws.close();
+
+      ws.onclose = function () {
+        location.reload();
+      };
+    }
+
+    if (data.type === 'error-resolved') {
+      console.log('[parcel] ✨ Error resolved');
+      removeErrorOverlay();
+    }
+
+    if (data.type === 'error') {
+      console.error('[parcel] 🚨  ' + data.error.message + '\n' + data.error.stack);
+      removeErrorOverlay();
+      var overlay = createErrorOverlay(data);
+      document.body.appendChild(overlay);
+    }
+  };
+}
+
+function removeErrorOverlay() {
+  var overlay = document.getElementById(OVERLAY_ID);
+
+  if (overlay) {
+    overlay.remove();
+  }
+}
+
+function createErrorOverlay(data) {
+  var overlay = document.createElement('div');
+  overlay.id = OVERLAY_ID; // html encode message and stack trace
+
+  var message = document.createElement('div');
+  var stackTrace = document.createElement('pre');
+  message.innerText = data.error.message;
+  stackTrace.innerText = data.error.stack;
+  overlay.innerHTML = '<div style="background: black; font-size: 16px; color: white; position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; padding: 30px; opacity: 0.85; font-family: Menlo, Consolas, monospace; z-index: 9999;">' + '<span style="background: red; padding: 2px 4px; border-radius: 2px;">ERROR</span>' + '<span style="top: 2px; margin-left: 5px; position: relative;">🚨</span>' + '<div style="font-size: 18px; font-weight: bold; margin-top: 20px;">' + message.innerHTML + '</div>' + '<pre>' + stackTrace.innerHTML + '</pre>' + '</div>';
+  return overlay;
+}
+
+function getParents(bundle, id) {
+  var modules = bundle.modules;
+
+  if (!modules) {
+    return [];
+  }
+
+  var parents = [];
+  var k, d, dep;
+
+  for (k in modules) {
+    for (d in modules[k][1]) {
+      dep = modules[k][1][d];
+
+      if (dep === id || Array.isArray(dep) && dep[dep.length - 1] === id) {
+        parents.push(k);
+      }
+    }
+  }
+
+  if (bundle.parent) {
+    parents = parents.concat(getParents(bundle.parent, id));
+  }
+
+  return parents;
+}
+
+function hmrApply(bundle, asset) {
+  var modules = bundle.modules;
+
+  if (!modules) {
+    return;
+  }
+
+  if (modules[asset.id] || !bundle.parent) {
+    var fn = new Function('require', 'module', 'exports', asset.generated.js);
+    asset.isNew = !modules[asset.id];
+    modules[asset.id] = [fn, asset.deps];
+  } else if (bundle.parent) {
+    hmrApply(bundle.parent, asset);
+  }
+}
+
+function hmrAcceptCheck(bundle, id) {
+  var modules = bundle.modules;
+
+  if (!modules) {
+    return;
+  }
+
+  if (!modules[id] && bundle.parent) {
+    return hmrAcceptCheck(bundle.parent, id);
+  }
+
+  if (checkedAssets[id]) {
+    return;
+  }
+
+  checkedAssets[id] = true;
+  var cached = bundle.cache[id];
+  assetsToAccept.push([bundle, id]);
+
+  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
+    return true;
+  }
+
+  return getParents(global.parcelRequire, id).some(function (id) {
+    return hmrAcceptCheck(global.parcelRequire, id);
+  });
+}
+
+function hmrAcceptRun(bundle, id) {
+  var cached = bundle.cache[id];
+  bundle.hotData = {};
+
+  if (cached) {
+    cached.hot.data = bundle.hotData;
+  }
+
+  if (cached && cached.hot && cached.hot._disposeCallbacks.length) {
+    cached.hot._disposeCallbacks.forEach(function (cb) {
+      cb(bundle.hotData);
+    });
+  }
+
+  delete bundle.cache[id];
+  bundle(id);
+  cached = bundle.cache[id];
+
+  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
+    cached.hot._acceptCallbacks.forEach(function (cb) {
+      cb();
+    });
+
+    return true;
+  }
+}
+},{}],"../node_modules/parcel-bundler/src/builtins/bundle-loader.js":[function(require,module,exports) {
+var getBundleURL = require('./bundle-url').getBundleURL;
+
+function loadBundlesLazy(bundles) {
+  if (!Array.isArray(bundles)) {
+    bundles = [bundles];
+  }
+
+  var id = bundles[bundles.length - 1];
+
+  try {
+    return Promise.resolve(require(id));
+  } catch (err) {
+    if (err.code === 'MODULE_NOT_FOUND') {
+      return new LazyPromise(function (resolve, reject) {
+        loadBundles(bundles.slice(0, -1)).then(function () {
+          return require(id);
+        }).then(resolve, reject);
+      });
+    }
+
+    throw err;
+  }
+}
+
+function loadBundles(bundles) {
+  return Promise.all(bundles.map(loadBundle));
+}
+
+var bundleLoaders = {};
+
+function registerBundleLoader(type, loader) {
+  bundleLoaders[type] = loader;
+}
+
+module.exports = exports = loadBundlesLazy;
+exports.load = loadBundles;
+exports.register = registerBundleLoader;
+var bundles = {};
+
+function loadBundle(bundle) {
+  var id;
+
+  if (Array.isArray(bundle)) {
+    id = bundle[1];
+    bundle = bundle[0];
+  }
+
+  if (bundles[bundle]) {
+    return bundles[bundle];
+  }
+
+  var type = (bundle.substring(bundle.lastIndexOf('.') + 1, bundle.length) || bundle).toLowerCase();
+  var bundleLoader = bundleLoaders[type];
+
+  if (bundleLoader) {
+    return bundles[bundle] = bundleLoader(getBundleURL() + bundle).then(function (resolved) {
+      if (resolved) {
+        module.bundle.register(id, resolved);
+      }
+
+      return resolved;
+    }).catch(function (e) {
+      delete bundles[bundle];
+      throw e;
+    });
+  }
+}
+
+function LazyPromise(executor) {
+  this.executor = executor;
+  this.promise = null;
+}
+
+LazyPromise.prototype.then = function (onSuccess, onError) {
+  if (this.promise === null) this.promise = new Promise(this.executor);
+  return this.promise.then(onSuccess, onError);
+};
+
+LazyPromise.prototype.catch = function (onError) {
+  if (this.promise === null) this.promise = new Promise(this.executor);
+  return this.promise.catch(onError);
+};
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],0:[function(require,module,exports) {
+var b=require("../node_modules/parcel-bundler/src/builtins/bundle-loader.js");
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], "script")
+//# sourceMappingURL=/styles.164d45a1.js.map
