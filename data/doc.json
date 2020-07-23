@@ -87,10 +87,354 @@
         "value": "In his work <i>Courageous Conversations about Race</i>,<i> </i>Glenn E. Singleton urges us to examine race through the personal, local, and immediate. This forces us to understand our own beliefs, values, and expectations about race. This exploration helps us to think more critically and empathetically about how we show up in any given space that we occupy. In American society today, it is difficult for us to connect our privileges— especially those that are invisible to us due to historically redlined neighborhoods and subsequent discrimination within real estate—  with the oppression of communities of color. Even more, we buy into the idea that our privileges are earned due to “hard work” rather than critically interrogate the impact of generational wealth  being as a result of stolen labor and racist government policies designed to limit the progress of communities of color. Our lack of exposure to how these oppressive systems work makes it easy to buy into the idea of “meritocracy” and we miss the point that this fictional narrative is a tool of white supremacy. As we question the qualifications of people of color in our schools and workplaces, using affirmative action to maintain a sense of “superiority,” we must also recognize that the historic structures within American society have rooted a kind of “affirmative action” for white people in every aspect of life. As we consider our own experiences, studying the experiences of others can help us to better see how our false notions of success coincide with someone else’s oppression."
       }
     ],
+    "claim2_wall": [
+      {
+        "type": "text",
+        "value": "* Heavy: An American Memoir by Kiese Laymon"
+      },
+      {
+        "type": "text",
+        "value": "* Just Mercy by Bryan Stevenson"
+      },
+      {
+        "type": "text",
+        "value": "* The Fire This Time: A New Generation Speaks About Race by Jesmyn Ward"
+      },
+      {
+        "type": "text",
+        "value": "* The Fire Next Time by James Baldwin"
+      },
+      {
+        "type": "text",
+        "value": "* Between the World and Me by Ta-Nehisi Coates"
+      },
+      {
+        "type": "text",
+        "value": "* I’m Still Here: Black Dignity in a World Made for Whiteness by Austin Channing Brown"
+      },
+      {
+        "type": "text",
+        "value": "* No Ashes in the Fire: Coming of Age Black and Free in America by Darnell L. Moore"
+      },
+      {
+        "type": "text",
+        "value": "* Citizen : An American Lyric by Claudia Rankine"
+      },
+      {
+        "type": "text",
+        "value": "* When They Called You a Terrorist: A Black Lives Matter Memoir by <a href=\"https://www.goodreads.com/author/show/16799287.Patrisse_Khan_Cullors\">Patrisse Khan-Cullors</a>, asha bandele, <a href=\"https://www.goodreads.com/author/show/5863103.Angela_Y_Davis\">Angela Y. Davis</a> (Foreword)"
+      },
+      {
+        "type": "text",
+        "value": "* Intersectionality Matters! (Podcast)"
+      },
+      {
+        "type": "text",
+        "value": "* Biased: Uncovering the Hidden Prejudice That Shapes What We See, Think, and Do by Jennifer Eberhardt"
+      },
+      {
+        "type": "text",
+        "value": "* Time: The Kalief Browder Story (2017)"
+      },
+      {
+        "type": "text",
+        "value": "* American Son (2019)"
+      },
+      {
+        "type": "text",
+        "value": "* Just Mercy (2019)"
+      },
+      {
+        "type": "text",
+        "value": "* Fruitvale Station (2013)"
+      },
+      {
+        "type": "text",
+        "value": "* Dear White People (2017)"
+      },
+      {
+        "type": "text",
+        "value": "* When They See Us (2019)"
+      },
+      {
+        "type": "text",
+        "value": "* I Am Not Your Negro (2016)"
+      },
+      {
+        "type": "text",
+        "value": "* Selma (2014)"
+      },
+      {
+        "type": "text",
+        "value": "* Say Her Name: The Life and Death of Sandra Bland (2018)"
+      },
+      {
+        "type": "text",
+        "value": "* If Beale Street Could Talk (2018)"
+      },
+      {
+        "type": "text",
+        "value": "* The Birth of a Nation (2015)"
+      },
+      {
+        "type": "text",
+        "value": "* Pushout: The Criminalization of Black Girls in School (2020)"
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel6",
+          "name": "Heavy: An American Memoir by Kiese Laymon",
+          "link": "https://www.amazon.com/Stamped-Antiracism-National-Award-winning-Beginning/dp/0316453692"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel7",
+          "name": "Pushout: The Criminalization of Black Girls in School (2020)",
+          "link": "https://www.nytimes.com/interactive/2019/08/14/magazine/1619-america-slavery.html"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel8",
+          "name": "Just Mercy by Bryan Stevenson",
+          "link": "https://newjimcrow.com/"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel9",
+          "name": "The Fire This Time: A New Generation Speaks About Race by Jesmyn Ward",
+          "link": "https://www.netflix.com/title/80091741"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel10",
+          "name": "The Fire Next Time by James Baldwin",
+          "link": "https://www.amazon.com/White-Fragility-People-About-Racism/dp/0807047414"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel11",
+          "name": "Between the World and Me by Ta-Nehisi Coates",
+          "link": "https://www.amazon.com/Black-Kids-Sitting-Together-Cafeteria/dp/0465060684"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel12",
+          "name": "I’m Still Here: Black Dignity in a World Made for Whiteness by Austin Channing Brown",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel13",
+          "name": "No Ashes in the Fire: Coming of Age Black and Free in America by Darnell L. Moore",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel14",
+          "name": "Citizen : An American Lyric by Claudia Rankine",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel15",
+          "name": "When They Called You a Terrorist: A Black Lives Matter Memoir by <a href=\"https://www.goodreads.com/author/show/16799287.Patrisse_Khan_Cullors\">Patrisse Khan-Cullors</a>, asha bandele, <a href=\"https://www.goodreads.com/author/show/5863103.Angela_Y_Davis\">Angela Y. Davis</a> (Foreword)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel16",
+          "name": "Intersectionality Matters! (Podcast)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel17",
+          "name": "Biased: Uncovering the Hidden Prejudice That Shapes What We See, Think, and Do by Jennifer Eberhardt",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel18",
+          "name": "Time: The Kalief Browder Story (2017)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel19",
+          "name": "American Son (2019)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel20",
+          "name": "Just Mercy (2019)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel21",
+          "name": "Fruitvale Station (2013)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel22",
+          "name": "Dear White People (2017)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel23",
+          "name": "When They See Us (2019)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel24",
+          "name": "I Am Not Your Negro (2016)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel25",
+          "name": "Selma (2014)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel26",
+          "name": "Say Her Name: The Life and Death of Sandra Bland (2018)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel27",
+          "name": "If Beale Street Could Talk (2018)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel28",
+          "name": "The Birth of a Nation (2015)",
+          "link": "https://www.amazon.com/Racism-without-Racists-Color-Blind-Persistence/dp/1442202181"
+        }
+      }
+    ],
     "claim3_text": [
       {
         "type": "text",
         "value": "The idea of a revolution might be a frightening thought to anyone who has benefited from the racial caste system in America, but simply told, this country was born from revolution. Revolution against British policing of the American colonies led to modern-day America. Revolution against French colonialism in Haiti led to the first Black-led republic. Revolution in South Africa led to the end of apartheid. While we may look unfavorably at the practices of revolution when we apply the lens of race in this country, it has long been a vehicle for much of the progress we have made as a society, which everyone benefits from. Black people are 13% of our country’s population but have consistently forced America to actualize its founding promises. As long as the conditions that caused the American Revolution are still in existence, the need for revolution remains just as strong today."
+      }
+    ],
+    "claim3_wall": [
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel29",
+          "name": "Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment by Partricia Hill Collins",
+          "link": "https://www.amazon.com/Black-Feminist-Thought-Consciousness-Empowerment/dp/0415964725"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel30",
+          "name": "Sister Outsider by Audre Lorde",
+          "link": "https://www.penguinrandomhouse.com/books/198292/sister-outsider-by-audre-lorde/"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel31",
+          "name": "So You Want to Talk About Race by Ijeoma Oluo",
+          "link": "https://www.amazon.com/You-Want-Talk-About-Race/dp/1580056776"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel32",
+          "name": "Hood Feminism: Notes from the Women That a Movement Forgot by Mikki Kendall",
+          "link": "https://www.amazon.com/Hood-Feminism-Notes-Movement-Forgot-ebook/dp/B07SVVPSNP"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel33",
+          "name": "Eloquent Rage: A Black Feminist Discovers Her Superpower by Brittney Cooper",
+          "link": "https://www.amazon.com/Eloquent-Rage-Feminist-Discovers-Superpower/dp/1250112575"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel34",
+          "name": "This Bridge Called My Back: Writings by Radical Women of  Color by Rosario Morales",
+          "link": "https://www.amazon.com/This-Bridge-Called-My-Back/dp/091317503X"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel35",
+          "name": "Black Panthers: Vanguard of the Revolution (2015)",
+          "link": "https://www.pbs.org/independentlens/films/the-black-panthers-vanguard-of-the-revolution/"
+        }
+      },
+      {
+        "type": "panel",
+        "value": {
+          "id": "panel36",
+          "name": "Hoodrat to Headwrap: A Decolonized Podcast",
+          "link": "https://soundcloud.com/user-501838661"
+        }
       }
     ],
     "conclusion": [

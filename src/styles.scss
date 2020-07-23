@@ -404,6 +404,7 @@ section {
     background-color: white;
 }
 
+
 #section-ships {
     background: url('../assets/slaveship.jpg');
     background-size: cover;
@@ -434,50 +435,58 @@ section {
     display: none;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 23.4vw);
-    grid-template-rows: repeat(3, 33.333vh);
+#claimOneWall {
+    .gallery_claim1 {
+        display: grid;
+        grid-template-columns: repeat(3, 23.4vw);
+        grid-template-rows: repeat(3, 33.333vh);
+    }
+    
+    #panel0 {
+        background: url('../assets/wall1/stamped_kendi_reynolds.jpg') 50% 60% / cover no-repeat;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #panel1 {
+        background: url('../assets/wall1/the1619Project_nyt.jpg') 50% 50% / cover no-repeat;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #panel2 {
+        background: url('../assets/wall1/theNewJimCrow_alexander.jpg') 50% 50% / cover no-repeat;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    #panel3 {
+        background: url('../assets/wall1/whiteFragility_diangelo.jpg') 0% 0% / cover no-repeat;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    #panel4 {
+        background: url('../assets/wall1/whyAreAllTheBlackKidsSittingTogether_tatum.jpg') 0% 37.5% / cover no-repeat;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #panel5 {
+        background: url('../assets/wall1/racismWithoutRacists_bonilla-silva.jpg') 0% 40% / cover no-repeat;
+    
+    }
+    #panel6 {
+        background: url('../assets/wall1/13th_duvernay.jpg') 0% 37.5% / cover no-repeat;
+    }
 }
 
 
-
-#panel0 {
-    background: url('../assets/wall1/stamped_kendi_reynolds.jpg') 50% 60% / cover no-repeat;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-#panel1 {
-    background: url('../assets/wall1/the1619Project_nyt.jpg') 50% 50% / cover no-repeat;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-#panel2 {
-    background: url('../assets/wall1/theNewJimCrow_alexander.jpg') 50% 50% / cover no-repeat;
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-#panel3 {
-    background: url('../assets/wall1/whiteFragility_diangelo.jpg') 0% 0% / cover no-repeat;
-    grid-row-start: 2;
-    grid-row-end: 4;
-}
-#panel4 {
-    background: url('../assets/wall1/whyAreAllTheBlackKidsSittingTogether_tatum.jpg') 0% 37.5% / cover no-repeat;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-#panel5 {
-    background: url('../assets/wall1/racismWithoutRacists_bonilla-silva.jpg') 0% 40% / cover no-repeat;
-
-}
-#panel6 {
-    background: url('../assets/wall1/13th_duvernay.jpg') 0% 37.5% / cover no-repeat;
-  
+#claimThreeWall {
+    .gallery_claim3 {
+        display: grid;
+        grid-template-columns: repeat(3, 23.4vw);
+        grid-template-rows: repeat(3, 33.333vh);
+    }
 }
 a:hover {
     text-decoration: none;

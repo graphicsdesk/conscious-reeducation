@@ -92,8 +92,8 @@
 
     <section class="red">
       <div class="full-screen smallest" id="section-6">
-        <div class="slide" id="claim1">
-          <div class="gallery">
+        <div class="slide" id="claimOneWall">
+          <div class="gallery_claim1">
             <each loop="item in body['claim1_wall']">
               <include src="partials/wall.html"></include>
               </case>
@@ -178,9 +178,13 @@
       </section>
 
       <section class="red">
-        <div class="full-screen small" id="section-12">
-          <div class="slide" id="claim1">
-            <p> Claim 3 Wall</p>
+        <div class="full-screen smallest" id="section-12">
+          <div class="slide" id="claimThreeWall">
+            <div class="gallery_claim3">
+              <each loop="item in body['claim3_wall']">
+                <include src="partials/wall.html"></include>
+              </each>
+            </div>
           </div>
         </div>
       </section>
