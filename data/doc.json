@@ -35,7 +35,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel1",
+          "id": "panel3",
           "name": "<i>The New Jim Crow: Mass Incarceration in the Age of Colorblindness</i> by Michelle Alexander",
           "link": "https://www.amazon.com/Stamped-Antiracism-National-Award-winning-Beginning/dp/0316453692"
         }
@@ -43,7 +43,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel2",
+          "id": "panel1",
           "name": "<i>The 1619 Project </i>by the New York Times",
           "link": ""
         }
