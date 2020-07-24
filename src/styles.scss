@@ -43,8 +43,9 @@ section {
 }
 
 .wall2 {
-    width:300vh !important;
+    width: 300vh !important;
 }
+
 #start {
     #titleSlide {
         background: url('../assets/TitleScreenIllo.JPG') repeat-x;
@@ -70,26 +71,32 @@ section {
 
     #claimOneText {
         font-size: 30px;
-        width: 35%;
+        width: 100%;
         margin-left: 5%;
+    }
+
+    .column1 {
+        position:relative;
+        top:35%;
     }
 
     #claimHeading {
         font-family: 'Oswald', sans-serif;
         color: #fff;
-        font-size: 4.09259vh;
+        font-size: 5.09259vh;
         line-height: 5.09259vh;
         letter-spacing: .005em;
         overflow: hidden;
+         
     }
 
     #claim1Img {
-        width: 50%;
+        position:relative;
+        top:10%;
+        width: 90%;
         height: 80%;
         background: url('../assets/StructuralRacismIllo1.JPG');
         background-size: cover;
-        margin-left: 45%;
-        margin-top: -20%;
         background-position: 50% 50%;
         box-shadow: 20px 40px 100px rgba(0, 0, 0, .2), 20px 40px 100px rgba(0, 0, 0, .2), 0 0 1px rgba(0, 0, 0, .2)
     }
@@ -98,31 +105,33 @@ section {
 #intro1 {
     background-color: red;
 
-    .huge-no {
-        position: relative;
-        top: -40;
-        left: 40;
-        width: 55.55556vh;
-        height: 90.18519vh;
-
-        svg {
-            fill: #fff;
-        }
+    .underlineBlack {
+        margin-bottom: 0 !important;
+        border-bottom: .5vw solid black;
+        width: 30%;
     }
 
-    #now {
-        position: relative;
-        top: 25%;
-        line-height: 5.09259vh;
-        font-weight: bold;
-        width: 80%;
+    h1 {
+        font-size: 4vw;
+        text-align: center;
+        color: white;
+        margin-bottom: 2.5%;
+    }
+
+    p {
+        width: 70%;
+        font-size: 2.2vw;
+        color: white;
+        text-align: left;
+        line-height: 1.7em;
         margin-left: auto;
         margin-right: auto;
-        font-size: 20px;
-        padding: 20px;
     }
-
 }
+
+
+
+
 
 .title {
     top: 3.98148vh;
@@ -493,74 +502,97 @@ section {
         grid-template-columns: repeat(8, 37.5vh);
         grid-template-rows: repeat(3, 33.333vh);
     }
+
     #panel7 {
         background: url('../assets/wall2/heavy_laymon.jpg') 50% 0% / cover no-repeat;
         grid-row-start: 1;
         grid-row-end: 3;
     }
+
     #panel8 {
         background: url('../assets/wall2/pushout.jpeg') 0% 0% / cover no-repeat;
     }
+
     #panel9 {
         background: url('../assets/wall2/justMercy_stevenson.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel10 {
         background: url('../assets/wall2/theFireThisTime_ward.jpg') 0% 20% / cover no-repeat;
     }
+
     #panel11 {
         background: url('../assets/wall2/theFireNextTime_baldwin.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel12 {
         background: url('../assets/wall2/betweenTheWorldAndMe_coates.jpeg') 0% 0% / cover no-repeat;
     }
+
     #panel13 {
         background: url('../assets/wall2/imStillHere_brown.jpeg') 0% 0% / cover no-repeat;
     }
+
     #panel14 {
         background: url('../assets/wall2/noAshesInTheFire_moore.jpg') 50% 15% / cover no-repeat;
     }
+
     #panel15 {
         background: url('../assets/wall2/citizen_rankine.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel16 {
         background: url('../assets/wall2/whenTheyCallYouATerrorist_khan-cullers_bandele.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel17 {
         background: url('../assets/wall2/intersectionaliyMatters_crenshaw.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel18 {
         background: url('../assets/wall2/biased_eberhardt.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel19 {
         background: url('../assets/wall2/timeTheKaliefBrowderStory.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel20 {
         background: url('../assets/wall2/americanSon.jpeg') 0% 0% / cover no-repeat;
     }
+
     #panel21 {
         background: url('../assets/wall2/justMercy.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel22 {
         background: url('../assets/wall2/fruitvaleStation.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel23 {
         background: url('../assets/wall2/dearWhitePeople.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel24 {
         background: url('../assets/wall2/whenTheySeeUs.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel25 {
         background: url('../assets/wall2/iAmNotYourNegro.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel26 {
         background: url('../assets/wall2/selma.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel27 {
         background: url('../assets/wall2/sayHerName.jpg') 0% 0% / cover no-repeat;
     }
+
     #panel28 {
         background: url('../assets/wall2/ifBealeStreetCouldTalk.jpeg') 0% 0% / cover no-repeat;
     }
+
     #panel29 {
         background: url('../assets/wall2/theBirthOfANation.png') 0% 0% / cover no-repeat;
     }
