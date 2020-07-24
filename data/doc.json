@@ -3,7 +3,7 @@
   "date": "October 17, 2019",
   "author": "Phillip Marcus, Jr.",
   "bio": "Phillip Marcus, Jr. is an abolitionist educator and assistant principal. He teaches in the Adolescent Literacy and English Education Department at Hunter College in New York City.",
-  "byline": "Produced by: <a href=\"https://www.columbiaspectator.com/contributors/Hong-Sen-Du/\">Hong Sen Du</a>",
+  "byline": "Produced by <a href=\"https://www.columbiaspectator.com/contributors/Hong-Sen-Du/\">Hong Sen Du</a>\nCurated by Hsinyen Huang, Karlton Gaskin, and Tamarah Wallace\nIllustrated by Ashley Jiao and Angela Wei",
   "body": {
     "intro_text1": [
       {
@@ -89,101 +89,9 @@
     ],
     "claim2_wall": [
       {
-        "type": "text",
-        "value": "* Heavy: An American Memoir by Kiese Laymon"
-      },
-      {
-        "type": "text",
-        "value": "* Just Mercy by Bryan Stevenson"
-      },
-      {
-        "type": "text",
-        "value": "* The Fire This Time: A New Generation Speaks About Race by Jesmyn Ward"
-      },
-      {
-        "type": "text",
-        "value": "* The Fire Next Time by James Baldwin"
-      },
-      {
-        "type": "text",
-        "value": "* Between the World and Me by Ta-Nehisi Coates"
-      },
-      {
-        "type": "text",
-        "value": "* I’m Still Here: Black Dignity in a World Made for Whiteness by Austin Channing Brown"
-      },
-      {
-        "type": "text",
-        "value": "* No Ashes in the Fire: Coming of Age Black and Free in America by Darnell L. Moore"
-      },
-      {
-        "type": "text",
-        "value": "* Citizen : An American Lyric by Claudia Rankine"
-      },
-      {
-        "type": "text",
-        "value": "* When They Called You a Terrorist: A Black Lives Matter Memoir by <a href=\"https://www.goodreads.com/author/show/16799287.Patrisse_Khan_Cullors\">Patrisse Khan-Cullors</a>, asha bandele, <a href=\"https://www.goodreads.com/author/show/5863103.Angela_Y_Davis\">Angela Y. Davis</a> (Foreword)"
-      },
-      {
-        "type": "text",
-        "value": "* Intersectionality Matters! (Podcast)"
-      },
-      {
-        "type": "text",
-        "value": "* Biased: Uncovering the Hidden Prejudice That Shapes What We See, Think, and Do by Jennifer Eberhardt"
-      },
-      {
-        "type": "text",
-        "value": "* Time: The Kalief Browder Story (2017)"
-      },
-      {
-        "type": "text",
-        "value": "* American Son (2019)"
-      },
-      {
-        "type": "text",
-        "value": "* Just Mercy (2019)"
-      },
-      {
-        "type": "text",
-        "value": "* Fruitvale Station (2013)"
-      },
-      {
-        "type": "text",
-        "value": "* Dear White People (2017)"
-      },
-      {
-        "type": "text",
-        "value": "* When They See Us (2019)"
-      },
-      {
-        "type": "text",
-        "value": "* I Am Not Your Negro (2016)"
-      },
-      {
-        "type": "text",
-        "value": "* Selma (2014)"
-      },
-      {
-        "type": "text",
-        "value": "* Say Her Name: The Life and Death of Sandra Bland (2018)"
-      },
-      {
-        "type": "text",
-        "value": "* If Beale Street Could Talk (2018)"
-      },
-      {
-        "type": "text",
-        "value": "* The Birth of a Nation (2015)"
-      },
-      {
-        "type": "text",
-        "value": "* Pushout: The Criminalization of Black Girls in School (2020)"
-      },
-      {
         "type": "panel",
         "value": {
-          "id": "panel6",
+          "id": "panel7",
           "name": "Heavy: An American Memoir by Kiese Laymon",
           "link": "https://www.amazon.com/Heavy-American-Memoir-Kiese-Laymon/dp/1501125656"
         }
@@ -191,7 +99,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel7",
+          "id": "panel8",
           "name": "Pushout: The Criminalization of Black Girls in School (2020)",
           "link": "https://pushoutfilm.com/"
         }
@@ -199,7 +107,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel8",
+          "id": "panel9",
           "name": "Just Mercy by Bryan Stevenson",
           "link": "https://justmercy.eji.org/"
         }
@@ -207,7 +115,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel9",
+          "id": "panel10",
           "name": "The Fire This Time: A New Generation Speaks About Race by Jesmyn Ward",
           "link": "https://www.amazon.com/Fire-This-Time-Generation-Speaks/dp/1501126350"
         }
@@ -215,7 +123,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel10",
+          "id": "panel11",
           "name": "The Fire Next Time by James Baldwin",
           "link": "https://www.amazon.com/Fire-Next-Time-James-Baldwin/dp/067974472X"
         }
@@ -223,7 +131,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel11",
+          "id": "panel12",
           "name": "Between the World and Me by Ta-Nehisi Coates",
           "link": "https://www.amazon.com/Between-World-Me-Ta-Nehisi-Coates/dp/0451482212"
         }
@@ -231,7 +139,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel12",
+          "id": "panel13",
           "name": "I’m Still Here: Black Dignity in a World Made for Whiteness by Austin Channing Brown",
           "link": "https://www.amazon.com/Im-Still-Here-Dignity-Whiteness/dp/1524760854"
         }
@@ -239,7 +147,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel13",
+          "id": "panel14",
           "name": "No Ashes in the Fire: Coming of Age Black and Free in America by Darnell L. Moore",
           "link": "https://www.amazon.com/No-Ashes-Fire-Coming-America/dp/1568589484"
         }
@@ -247,7 +155,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel14",
+          "id": "panel15",
           "name": "Citizen : An American Lyric by Claudia Rankine",
           "link": "https://www.amazon.com/Citizen-American-Lyric-Claudia-Rankine/dp/1555976905"
         }
@@ -255,7 +163,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel15",
+          "id": "panel16",
           "name": "When They Called You a Terrorist: A Black Lives Matter Memoir by <a href=\"https://www.goodreads.com/author/show/16799287.Patrisse_Khan_Cullors\">Patrisse Khan-Cullors</a>, asha bandele, <a href=\"https://www.goodreads.com/author/show/5863103.Angela_Y_Davis\">Angela Y. Davis</a> (Foreword)",
           "link": "https://www.amazon.com/When-They-Call-You-Terrorist/dp/1250171083"
         }
@@ -263,7 +171,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel16",
+          "id": "panel17",
           "name": "Intersectionality Matters! (Podcast)",
           "link": "https://aapf.org/podcast"
         }
@@ -271,7 +179,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel17",
+          "id": "panel18",
           "name": "Biased: Uncovering the Hidden Prejudice That Shapes What We See, Think, and Do by Jennifer Eberhardt",
           "link": "https://www.amazon.com/Biased-Uncovering-Hidden-Prejudice-Shapes-ebook/dp/B07DH89ZDY"
         }
@@ -279,7 +187,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel18",
+          "id": "panel19",
           "name": "Time: The Kalief Browder Story (2017)",
           "link": "https://www.netflix.com/title/80187052"
         }
@@ -287,7 +195,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel19",
+          "id": "panel20",
           "name": "American Son (2019)",
           "link": "https://www.netflix.com/title/81024100"
         }
@@ -295,7 +203,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel20",
+          "id": "panel21",
           "name": "Just Mercy (2019)",
           "link": "https://www.justmercyfilm.com/"
         }
@@ -303,7 +211,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel21",
+          "id": "panel22",
           "name": "Fruitvale Station (2013)",
           "link": "https://www.amazon.com/Fruitvale-Station-Michael-B-Jordan/dp/B00HDZO8AS"
         }
@@ -311,7 +219,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel22",
+          "id": "panel23",
           "name": "Dear White People (2017)",
           "link": "https://www.netflix.com/title/80095698"
         }
@@ -319,7 +227,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel23",
+          "id": "panel24",
           "name": "When They See Us (2019)",
           "link": "https://www.netflix.com/title/80200549"
         }
@@ -327,7 +235,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel24",
+          "id": "panel25",
           "name": "I Am Not Your Negro (2016)",
           "link": "https://www.youtube.com/watch?v=rNUYdgIyaPM"
         }
@@ -335,7 +243,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel25",
+          "id": "panel26",
           "name": "Selma (2014)",
           "link": "https://www.amazon.com/Selma-David-Oyelowo/dp/B00S0X4HK8"
         }
@@ -343,7 +251,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel26",
+          "id": "panel27",
           "name": "Say Her Name: The Life and Death of Sandra Bland (2018)",
           "link": "https://www.hbo.com/documentaries/say-her-name-the-life-and-death-of-sandra-bland"
         }
@@ -351,7 +259,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel27",
+          "id": "panel28",
           "name": "If Beale Street Could Talk (2018)",
           "link": "https://www.imdb.com/title/tt7125860/"
         }
@@ -359,7 +267,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel28",
+          "id": "panel29",
           "name": "The Birth of a Nation (2016)",
           "link": "https://www.imdb.com/title/tt4196450/"
         }
@@ -375,7 +283,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel29",
+          "id": "panel30",
           "name": "Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment by Partricia Hill Collins",
           "link": "https://www.amazon.com/Black-Feminist-Thought-Consciousness-Empowerment/dp/0415964725"
         }
@@ -383,7 +291,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel30",
+          "id": "panel31",
           "name": "Sister Outsider by Audre Lorde",
           "link": "https://www.penguinrandomhouse.com/books/198292/sister-outsider-by-audre-lorde/"
         }
@@ -391,7 +299,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel31",
+          "id": "panel32",
           "name": "So You Want to Talk About Race by Ijeoma Oluo",
           "link": "https://www.amazon.com/You-Want-Talk-About-Race/dp/1580056776"
         }
@@ -399,7 +307,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel32",
+          "id": "panel33",
           "name": "Hood Feminism: Notes from the Women That a Movement Forgot by Mikki Kendall",
           "link": "https://www.amazon.com/Hood-Feminism-Notes-Movement-Forgot-ebook/dp/B07SVVPSNP"
         }
@@ -407,7 +315,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel33",
+          "id": "panel34",
           "name": "Eloquent Rage: A Black Feminist Discovers Her Superpower by Brittney Cooper",
           "link": "https://www.amazon.com/Eloquent-Rage-Feminist-Discovers-Superpower/dp/1250112575"
         }
@@ -415,7 +323,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel34",
+          "id": "panel35",
           "name": "This Bridge Called My Back: Writings by Radical Women of  Color by Rosario Morales",
           "link": "https://www.amazon.com/This-Bridge-Called-My-Back/dp/091317503X"
         }
@@ -423,7 +331,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel35",
+          "id": "panel36",
           "name": "Black Panthers: Vanguard of the Revolution (2015)",
           "link": "https://www.pbs.org/independentlens/films/the-black-panthers-vanguard-of-the-revolution/"
         }
@@ -431,7 +339,7 @@
       {
         "type": "panel",
         "value": {
-          "id": "panel36",
+          "id": "panel37",
           "name": "Hoodrat to Headwrap: A Decolonized Podcast",
           "link": "https://soundcloud.com/user-501838661"
         }

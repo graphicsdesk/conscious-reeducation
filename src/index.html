@@ -136,16 +136,20 @@
           </div>
         </div>
       </section>
+    </each>
 
-
-      <section class="red">
-        <div class="full-screen small" id="section-9">
-          <div class="slide" id="c">
-            <p style="color:white"> Wall</p>
+    <section class="red">
+      <div class="full-screen wall2" id="section-9">
+        <div class="slide" id="claimTwoWall">
+          <div class="gallery_claim2">
+            <each loop="item in body['claim2_wall']">
+              <include src="partials/wall.html"></include>
+            </each>
           </div>
         </div>
-      </section>
-    </each>
+      </div>
+    </section>
+
 
     <each loop="item in body['claim3_text']">
 

@@ -42,6 +42,9 @@ section {
     }
 }
 
+.wall2 {
+    width:300vh !important;
+}
 #start {
     #titleSlide {
         background: url('../assets/TitleScreenIllo.JPG') repeat-x;
@@ -484,6 +487,85 @@ section {
     }
 }
 
+#claimTwoWall {
+    .gallery_claim2 {
+        display: grid;
+        grid-template-columns: repeat(8, 37.5vh);
+        grid-template-rows: repeat(3, 33.333vh);
+    }
+    #panel7 {
+        background: url('../assets/wall2/heavy_laymon.jpg') 50% 0% / cover no-repeat;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #panel8 {
+        background: url('../assets/wall2/pushout.jpeg') 0% 0% / cover no-repeat;
+    }
+    #panel9 {
+        background: url('../assets/wall2/justMercy_stevenson.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel10 {
+        background: url('../assets/wall2/theFireThisTime_ward.jpg') 0% 20% / cover no-repeat;
+    }
+    #panel11 {
+        background: url('../assets/wall2/theFireNextTime_baldwin.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel12 {
+        background: url('../assets/wall2/betweenTheWorldAndMe_coates.jpeg') 0% 0% / cover no-repeat;
+    }
+    #panel13 {
+        background: url('../assets/wall2/imStillHere_brown.jpeg') 0% 0% / cover no-repeat;
+    }
+    #panel14 {
+        background: url('../assets/wall2/noAshesInTheFire_moore.jpg') 50% 15% / cover no-repeat;
+    }
+    #panel15 {
+        background: url('../assets/wall2/citizen_rankine.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel16 {
+        background: url('../assets/wall2/whenTheyCallYouATerrorist_khan-cullers_bandele.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel17 {
+        background: url('../assets/wall2/intersectionaliyMatters_crenshaw.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel18 {
+        background: url('../assets/wall2/biased_eberhardt.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel19 {
+        background: url('../assets/wall2/timeTheKaliefBrowderStory.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel20 {
+        background: url('../assets/wall2/americanSon.jpeg') 0% 0% / cover no-repeat;
+    }
+    #panel21 {
+        background: url('../assets/wall2/justMercy.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel22 {
+        background: url('../assets/wall2/fruitvaleStation.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel23 {
+        background: url('../assets/wall2/dearWhitePeople.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel24 {
+        background: url('../assets/wall2/whenTheySeeUs.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel25 {
+        background: url('../assets/wall2/iAmNotYourNegro.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel26 {
+        background: url('../assets/wall2/selma.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel27 {
+        background: url('../assets/wall2/sayHerName.jpg') 0% 0% / cover no-repeat;
+    }
+    #panel28 {
+        background: url('../assets/wall2/ifBealeStreetCouldTalk.jpeg') 0% 0% / cover no-repeat;
+    }
+    #panel29 {
+        background: url('../assets/wall2/theBirthOfANation.png') 0% 0% / cover no-repeat;
+    }
+}
+
 
 #claimThreeWall {
     .gallery_claim3 {
@@ -492,37 +574,37 @@ section {
         grid-template-rows: repeat(3, 33.333vh);
     }
 
-    #panel29 {
+    #panel30 {
         background: url('../assets/wall3/blackFeministThough_collins.jpg') 0% 0% / cover no-repeat;
     }
 
-    #panel30 {
+    #panel31 {
         background: url('../assets/wall3/sisterOutsider_lorde.jpg') 0% 5% / cover no-repeat;
     }
 
-    #panel31 {
+    #panel32 {
         background: url('../assets/wall3/soYouWantToTalkAboutRace_oluo.jpg') 0% 50% / cover no-repeat;
         grid-row-start: 1;
         grid-row-end: 3;
     }
 
-    #panel32 {
+    #panel33 {
         background: url('../assets/wall3/hoodFeminism_kendall.jpg') 0% 0% / cover no-repeat;
     }
 
-    #panel33 {
+    #panel34 {
         background: url('../assets/wall3/eloquentRage_cooper.jpg') 0% 10% / cover no-repeat;
     }
 
-    #panel34 {
+    #panel35 {
         background: url('../assets/wall3/thisBridgeCalledMyBack_moraga_anzaldua.jpg') 0% 0% / cover no-repeat;
     }
 
-    #panel35 {
+    #panel36 {
         background: url('../assets/wall3/theBlackPanthers.jpg') 0% 37.5% / cover no-repeat;
     }
 
-    #panel36 {
+    #panel37 {
         background: url('../assets/wall3/hoodratToHeadwrap.jpg') 0% 0% / cover no-repeat;
     }
 
