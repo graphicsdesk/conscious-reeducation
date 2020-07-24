@@ -55,11 +55,11 @@ body {
 h1,
 p {
   -webkit-font-smoothing: antialiased;
-  color: #121212;
+  color: white;
 }
 
 a {
-  color: #337ab7;
+  color: white !important;
   text-decoration: none;
 
   &[href^="mailto:"] {
@@ -80,8 +80,13 @@ b {
   max-width: $gbody-width;
   width: calc(100% - #{2 * $gbody-padding});
   margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
+
+}
+
+.bylineInfo {
+  position:relative;
+  margin-top:50vh;
 }
 
 .paragraph {

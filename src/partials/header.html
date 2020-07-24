@@ -3,14 +3,13 @@
   <if condition="typeof deck !== 'undefined'">
     <p class="deck">{{ deck }}</p>
   </if>
-  <p class="byline">Author: {{ author }}</p>
-  <p class="byline">Bio: {{ bio }}</p>
-  <p class="byline inline-credits">
-    <each
-      loop="item in typeof byline === 'undefined' ? [] : byline.split('\n')"
-    >
-      <span>{{{ item }}}</span>
-    </each>
-  </p>
-  <p class="pub-date">{{ date }}</p>
+  <p class="byline">{{ author }}</p>
+  <p class="byline"><i>{{ bio }}</i></p>
+  <div class="bylineInfo">
+    <p class="byline inline-credits">
+      <each loop="item in typeof byline === 'undefined' ? [] : byline.split('\n')">
+        <span>{{{ item }}}</span>
+      </each>
+    </p>
+  </div>
 </header>
