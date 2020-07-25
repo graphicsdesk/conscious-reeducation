@@ -131,13 +131,16 @@ a:hover {
     width: 120vh;
 }
 
+.wallSmall {
+    width: 120vh;
+}
+
 .smaller {
     width: 170vh;
 }
 
 .small {
     width: 200vh;
-    min-width: 95vh;
 }
 
 .red {
@@ -239,7 +242,7 @@ a:hover {
         font-size: 4.09259vh;
         line-height: 5.09259vh;
         letter-spacing: .005em;
-        margin-left:5%;
+        margin-left: 5%;
         overflow: hidden;
     }
 
@@ -670,4 +673,98 @@ a:hover {
     #panel37 {
         background: url('../assets/wall3/hoodratToHeadwrap.jpg') 0% 0% / cover no-repeat;
     }
+}
+
+@media screen and (max-width: 450px) {
+
+    .full-screen {
+        width: 150vh;
+    }
+
+    #article {
+        width: 2500vh;
+    }
+
+    .smallest {
+        width: 90vh;
+    }
+
+    .smaller {
+        width: 140vh;
+    }
+
+    .small {
+        width: 170vh;
+    }
+
+    #intro1 {
+
+        p {
+            font-size: 3.2vh;
+            width: 55%;
+        }
+    }
+
+    #context {
+        p {
+            font-size: 1.8vh;
+        }
+
+        #contextBox {
+            margin-top: -57%;
+            width: 30%;
+            margin-left: 60%;
+        }
+    }
+
+    #claimOneInfo {
+        #claimOneParagraphs {
+            font-size: 2.20vh;
+        }
+    }
+
+    #claimTwoInfo {
+        p {
+            font-size: 1.75vh;
+        }
+    }
+
+    #claim3 {
+        p {
+            font-size: 16vh;
+            margin-bottom: 4%;
+        }
+    }
+
+    #claimThreeInfo {
+        #rev {
+            h1 {
+                line-height: 17vh;
+            }
+
+            p {
+                width: 75%;
+                font-size: 2.4vh;
+            }
+        }
+    }
+
+    #claimOneWall {
+        .gallery_claim1 {
+            grid-template-columns: repeat(3, 50vh);
+        }
+
+    }
+    #claimThreeWall {
+        .gallery_claim3 {
+            display: grid;
+            grid-template-columns: repeat(3, 50vh);
+        }
+    }
+    #conclusion {
+        p {
+            font-size:2.45vh;
+        }
+    }
+
 }
