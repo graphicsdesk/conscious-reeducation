@@ -28,11 +28,11 @@ section {
 }
 
 .column1 {
-    flex: 40%;
+    flex: 50%;
 }
 
 .column2 {
-    flex: 60%;
+    flex: 50%;
 }
 
 a:hover {
@@ -137,6 +137,10 @@ a:hover {
 
 .smaller {
     width: 170vh;
+}
+
+.smallMiddle {
+    width: 140vh !important;
 }
 
 .small {
@@ -439,7 +443,7 @@ a:hover {
         color: black;
         line-height: 3.59259vh;
         width: 80%;
-        font-size: 2.125vh;
+        font-size: 2.2vh;
         margin-left: auto;
         margin-right: auto;
         padding: 10;
@@ -449,8 +453,8 @@ a:hover {
     #claimTwoInfoImg {
         width: 100%;
         height: 100%;
-        background: url('../assets/conceptart.jpeg');
-        background-size: cover;
+        background: url('../assets/wall2/courageousConversationsAboutRace.jpg') no-repeat;
+        background-size: contain;
         background-position: 25% 50%;
     }
 
@@ -751,7 +755,7 @@ a:hover {
 
     #claimTwoInfo {
         p {
-            font-size: 1.75vh;
+            font-size: 2.2vh;
         }
     }
 
