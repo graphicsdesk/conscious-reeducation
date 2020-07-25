@@ -213,7 +213,7 @@ a:hover {
     #claimHeading {
         font-family: 'Oswald', sans-serif;
         color: #fff;
-        font-size: 4.09259vh;
+        font-size: 6.09259vh;
         line-height: 5.09259vh;
         letter-spacing: .005em;
         overflow: hidden;
@@ -676,6 +676,27 @@ a:hover {
 }
 
 @media screen and (max-width: 450px) {
+    .g-body {
+        margin-left: 0%;
+
+        #headline {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 12px;
+            width: 60%;
+        }
+
+        .bylineInfo {
+            margin-top: 30vh;
+
+            .inline-credits span {
+                font-size: 12px;
+                width: 120%;
+            }
+        }
+    }
 
     .full-screen {
         width: 150vh;
@@ -707,19 +728,19 @@ a:hover {
 
     #context {
         p {
-            font-size: 1.8vh;
+            font-size: 2.1vh;
         }
 
         #contextBox {
             margin-top: -57%;
-            width: 30%;
-            margin-left: 60%;
+            width: 37.5%;
+            margin-left: 57.5%;
         }
     }
 
     #claimOneInfo {
         #claimOneParagraphs {
-            font-size: 2.20vh;
+            font-size: 2.15vh;
         }
     }
 
@@ -755,15 +776,17 @@ a:hover {
         }
 
     }
+
     #claimThreeWall {
         .gallery_claim3 {
             display: grid;
             grid-template-columns: repeat(3, 50vh);
         }
     }
+
     #conclusion {
         p {
-            font-size:2.45vh;
+            font-size: 2.45vh;
         }
     }
 
