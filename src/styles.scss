@@ -213,7 +213,7 @@ a:hover {
     #claimHeading {
         font-family: 'Oswald', sans-serif;
         color: #fff;
-        font-size: 6.09259vh;
+        font-size: 4.09259vh;
         line-height: 5.09259vh;
         letter-spacing: .005em;
         overflow: hidden;
@@ -735,6 +735,11 @@ a:hover {
             margin-top: -57%;
             width: 37.5%;
             margin-left: 57.5%;
+        }
+    }
+    #claim1 {
+        #claimHeading {
+            font-size:6vh;
         }
     }
 
