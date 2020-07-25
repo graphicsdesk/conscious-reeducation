@@ -22,7 +22,51 @@ section {
     color: #EFEFEF;
 }
 
-#intro {
+.row {
+    display: flex;
+    height: 100%;
+}
+
+.column1 {
+    flex: 40%;
+}
+
+.column2 {
+    flex: 60%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.gallery__item:hover .text {
+    opacity: 0.9;
+
+}
+
+.text {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+
+    font-size: 1.5vw;
+    /* Black w/opacity/see-through */
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.text p {
+    margin: 0;
+    color: white;
+    width: 95%;
+}
+
+
+#article {
     display: flex;
     width: 2740vh;
     height: 100vh;
@@ -42,8 +86,70 @@ section {
     }
 }
 
-.wall2 {
-    width: 300vh !important;
+.title {
+    top: 3.98148vh;
+    left: 10.36111vh;
+    font-family: Grifinito;
+    color: #fff;
+    font-size: 5.09259vh;
+    line-height: 5.09259vh;
+    letter-spacing: .005em;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.alignMargin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.strikeout {
+    font-size: 1em;
+    line-height: 1em;
+    position: relative;
+}
+
+.strikeout::after {
+    border-bottom: 0.125em solid red;
+    content: "";
+    left: 0;
+    margin-top: calc(0.125em / 2 * -1);
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.black {
+    background-color: #000;
+}
+
+.above {
+    z-index: 3 !important;
+}
+
+.smallest {
+    width: 120vh;
+}
+
+.smaller {
+    width: 170vh;
+}
+
+.small {
+    width: 200vh;
+    min-width: 95vh;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 #start {
@@ -54,17 +160,33 @@ section {
     }
 }
 
-.black {
-    background-color: #000;
+#intro1 {
+    background-color: #C60000;
+
+    .underlineBlack {
+        margin-bottom: 0 !important;
+        border-bottom: 1.5vh solid black;
+        width: 50vh;
+    }
+
+    h1 {
+        font-size: 10vh;
+        text-align: center;
+        color: white;
+        margin-bottom: 2.5%;
+        margin-top: 0;
+    }
+
+    p {
+        width: calc(100% - 15vw);
+        font-size: 4.25vh;
+        color: white;
+        text-align: left;
+        line-height: 1.7em;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-
-
-
-.above {
-    z-index: 3 !important;
-}
-
-
 
 #claim1 {
     background-color: #C60000;
@@ -107,54 +229,10 @@ section {
     }
 }
 
-#intro1 {
-    background-color: #C60000;
-
-    .underlineBlack {
-        margin-bottom: 0 !important;
-        border-bottom: 1.5vh solid black;
-        width: 50vh;
-    }
-
-    h1 {
-        font-size: 10vh;
-        text-align: center;
-        color: white;
-        margin-bottom: 2.5%;
-        margin-top: 0;
-    }
-
-    p {
-        width: calc(100% - 15vw);
-        font-size: 4.25vh;
-        color: white;
-        text-align: left;
-        line-height: 1.7em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-
-
-
-
-.title {
-    top: 3.98148vh;
-    left: 10.36111vh;
-    font-family: Grifinito;
-    color: #fff;
-    font-size: 5.09259vh;
-    line-height: 5.09259vh;
-    letter-spacing: .005em;
-    overflow: hidden;
-    margin-left: 20px;
-}
-
 #claim3 {
     background-color: black;
     margin-top: 2.5%;
-    
+
     #claimHeading {
         font-family: 'Oswald', sans-serif;
         color: #fff;
@@ -163,8 +241,6 @@ section {
         letter-spacing: .005em;
         margin-left:5%;
         overflow: hidden;
-
-
     }
 
     p {
@@ -249,27 +325,6 @@ section {
     }
 }
 
-
-.alignMargin {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.strikeout {
-    font-size: 1em;
-    line-height: 1em;
-    position: relative;
-}
-
-.strikeout::after {
-    border-bottom: 0.125em solid red;
-    content: "";
-    left: 0;
-    margin-top: calc(0.125em / 2 * -1);
-    position: absolute;
-    right: 0;
-    top: 50%;
-}
 
 #context {
     background-color: black;
@@ -373,19 +428,6 @@ section {
     }
 }
 
-.row {
-    display: flex;
-    height: 100%;
-}
-
-.column1 {
-    flex: 40%;
-}
-
-.column2 {
-    flex: 60%;
-}
-
 #claimTwoInfo {
     background-color: white;
 
@@ -411,29 +453,6 @@ section {
 
 }
 
-.smallest {
-    width: 120vh;
-}
-
-.smaller {
-    width: 170vh;
-}
-
-.small {
-    width: 200vh;
-    min-width: 95vh;
-}
-
-
-.red {
-    background-color: red;
-}
-
-.white {
-    background-color: white;
-}
-
-
 #section-ships {
     background: url('../assets/slaveship.jpg');
     background-size: cover;
@@ -444,21 +463,15 @@ section {
     background-size: cover;
 }
 
-
 #section-blm {
     background: url('../assets/blacklivesmatterfist.png') no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 }
 
-
 #section-individual {
     background: url('../assets/IndividualRacismIllo.JPG') no-repeat;
     background-size: cover;
-}
-
-::-webkit-scrollbar {
-    display: none;
 }
 
 #claimOneWall {
@@ -508,6 +521,10 @@ section {
     #panel6 {
         background: url('../assets/wall1/13th_duvernay.jpg') 100% 50% / cover no-repeat;
     }
+}
+
+.wall2 {
+    width: 300vh !important;
 }
 
 #claimTwoWall {
@@ -653,35 +670,4 @@ section {
     #panel37 {
         background: url('../assets/wall3/hoodratToHeadwrap.jpg') 0% 0% / cover no-repeat;
     }
-
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-.gallery__item:hover .text {
-    opacity: 0.9;
-
-}
-
-.text {
-    background-color: rgba(0, 0, 0, 0.8);
-    opacity: 0;
-
-    font-size: 1.5vw;
-    /* Black w/opacity/see-through */
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-}
-
-.text p {
-    margin: 0;
-    color: white;
-    width: 95%;
 }
