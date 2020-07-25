@@ -80,13 +80,13 @@ b {
   max-width: $gbody-width;
   width: calc(100% - #{2 * $gbody-padding});
   margin-top: 0;
-  margin-left: 5%;
+  margin-left: 2.5%;
 
 }
 
 .bylineInfo {
   position:relative;
-  margin-top:50vh;
+  margin-top:27.5vh;
 }
 
 .paragraph {
@@ -169,11 +169,12 @@ header {
   }
 
   #headline {
-    margin: 50px 0 20px;
-    font-size: 45px;
+    margin: 20px 0 20px;
+    font-size: 15vh;
     line-height: 1.15;
     font-weight: 500;
     font-family: Playfair Display;
+    width:110%;
   }
 
   .deck {

@@ -165,6 +165,7 @@ a:hover {
         background-position: 50% 85%;
         background-size: cover;
     }
+    width:185vh;
 }
 
 #intro1 {
@@ -199,10 +200,18 @@ a:hover {
     background-color: #C60000;
 
     #claimOneText {
-        font-size: 30px;
         width: 90%;
         margin-left: 5%;
+        font-size: 10vh;
+        margin-top: 0;
+        line-height: 20.09259vh;
+        letter-spacing: .015vh;
+        color: white;
+        margin-top:-25vh;
+        text-align:center;
+        
     }
+
 
     .column1 {
         position: relative;
@@ -212,16 +221,6 @@ a:hover {
 
     .column2 {
         flex: 55%;
-    }
-
-    #claimHeading {
-        font-family: 'Oswald', sans-serif;
-        color: #fff;
-        font-size: 4.09259vh;
-        line-height: 5.09259vh;
-        letter-spacing: .005em;
-        overflow: hidden;
-
     }
 
     #claim1Img {
@@ -240,16 +239,6 @@ a:hover {
     background-color: black;
     margin-top: 2.5%;
 
-    #claimHeading {
-        font-family: 'Oswald', sans-serif;
-        color: #fff;
-        font-size: 4.09259vh;
-        line-height: 5.09259vh;
-        letter-spacing: .005em;
-        margin-left: 5%;
-        overflow: hidden;
-    }
-
     p {
         font-size: 17vh;
         color: white;
@@ -260,12 +249,6 @@ a:hover {
         font-family: 'Merriweather', serif;
         font-weight: 700;
         text-align: center;
-    }
-
-    h6 {
-        font-size: 1em;
-        text-align: center;
-        margin-top: calc(0.125vh / 2 * 1);
     }
 
 }
@@ -398,9 +381,14 @@ a:hover {
     background-color: black;
 
     #claimTwoText {
-        font-size: 32px;
         margin-left: 2.5%;
         color: white;
+        margin-top: 0;
+        font-size: 9vh;
+        line-height: 16.09259vh;
+        letter-spacing: .015vh;
+        color: white;
+        text-align:center;
     }
 
     #claimTwoBox {
@@ -409,7 +397,7 @@ a:hover {
         top: 0;
         width: 40%;
         margin-left: 55%;
-        margin-top: -42.5%;
+        margin-top: -53.5%;
     }
 
     #claimTwoHeading {
@@ -427,7 +415,7 @@ a:hover {
         background: url('../assets/individualizedracism.jpg');
         background-size: cover;
         margin-left: 7.5%;
-        margin-top: 3.5%;
+        margin-top: 4.5%;
         background-position: 50% 50%;
         box-shadow: 20px 40px 100px rgba(0, 0, 0, .2), 20px 40px 100px rgba(0, 0, 0, .2), 0 0 1px rgba(0, 0, 0, .2);
         border: white 4px solid;
@@ -693,7 +681,7 @@ a:hover {
         }
 
         .bylineInfo {
-            margin-top: 30vh;
+            margin-top: 50vh;
 
             .inline-credits span {
                 font-size: 12px;
@@ -741,18 +729,22 @@ a:hover {
             margin-left: 57.5%;
         }
     }
-    #claim1 {
-        #claimHeading {
-            font-size:5.7vh;
-        }
-    }
-
     #claimOneInfo {
         #claimOneParagraphs {
             font-size: 2vh;
         }
     }
 
+    #claim2 {
+        #claimTwoBox {        
+            margin-top: -62.5%;
+          
+        }
+        #claimTwoText {
+            font-size: 7vh;
+            line-height: 15vh;
+        }
+    }
     #claimTwoInfo {
         p {
             font-size: 2.2vh;
