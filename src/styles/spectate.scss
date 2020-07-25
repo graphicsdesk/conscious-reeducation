@@ -80,7 +80,7 @@ b {
   max-width: $gbody-width;
   width: calc(100% - #{2 * $gbody-padding});
   margin-top: 0;
-  margin-left: 10%;
+  margin-left: 5%;
 
 }
 
@@ -92,7 +92,7 @@ b {
 .paragraph {
   margin-bottom: 20px;
   font-family: $georgia;
-  font-size: 19px;
+  font-size: 1vh;
   line-height: 1.63;
 }
 

@@ -6,7 +6,7 @@
 
 .background-photo {
     height: 100%;
-    width: 90vw !important;
+    width: 800vh !important;
     z-index: 0 !important;
 }
 
@@ -24,14 +24,14 @@ section {
 
 #intro {
     display: flex;
-    width: 1450vw;
+    width: 2740vh;
     height: 100vh;
     overflow: hidden;
 }
 
 .full-screen {
     display: flex;
-    width: 100vw;
+    width: 200vh;
     height: 100%;
     overflow: hidden;
     z-index: 2 !important;
@@ -67,7 +67,7 @@ section {
 
 
 #claim1 {
-    background-color: red;
+    background-color: #C60000;
 
     #claimOneText {
         font-size: 30px;
@@ -76,8 +76,13 @@ section {
     }
 
     .column1 {
-        position:relative;
-        top:35%;
+        position: relative;
+        top: 35%;
+        flex: 45%;
+    }
+
+    .column2 {
+        flex: 55%;
     }
 
     #claimHeading {
@@ -87,12 +92,12 @@ section {
         line-height: 5.09259vh;
         letter-spacing: .005em;
         overflow: hidden;
-         
+
     }
 
     #claim1Img {
-        position:relative;
-        top:10%;
+        position: relative;
+        top: 10%;
         width: 90%;
         height: 80%;
         background: url('../assets/StructuralRacismIllo1.JPG');
@@ -103,24 +108,25 @@ section {
 }
 
 #intro1 {
-    background-color: red;
+    background-color: #C60000;
 
     .underlineBlack {
         margin-bottom: 0 !important;
-        border-bottom: .5vw solid black;
-        width: 30%;
+        border-bottom: 1.5vh solid black;
+        width: 50vh;
     }
 
     h1 {
-        font-size: 4vw;
+        font-size: 10vh;
         text-align: center;
         color: white;
         margin-bottom: 2.5%;
+        margin-top: 0;
     }
 
     p {
-        width: 70%;
-        font-size: 2.2vw;
+        width: calc(100% - 15vw);
+        font-size: 4.25vh;
         color: white;
         text-align: left;
         line-height: 1.7em;
@@ -148,13 +154,25 @@ section {
 #claim3 {
     background-color: black;
     margin-top: 2.5%;
+    
+    #claimHeading {
+        font-family: 'Oswald', sans-serif;
+        color: #fff;
+        font-size: 4.09259vh;
+        line-height: 5.09259vh;
+        letter-spacing: .005em;
+        margin-left:5%;
+        overflow: hidden;
+
+
+    }
 
     p {
-        font-size: 7em;
+        font-size: 17vh;
         color: white;
         position: relative;
         top: 0;
-        margin-top: 2.5%;
+        margin-top: -1%;
         margin-bottom: 2.5%;
         font-family: 'Merriweather', serif;
         font-weight: 700;
@@ -175,16 +193,16 @@ section {
 
         .underlineRed {
             margin-bottom: 0 !important;
-            border-bottom: 2vw solid red;
+            border-bottom: 2.5vh solid red;
             padding-bottom: 2px;
             width: 75%;
         }
 
         h1 {
-            font-size: 10vw;
+            font-size: 14vh;
             margin-top: 0;
             line-height: 20.09259vh;
-            letter-spacing: .01em;
+            letter-spacing: .015vh;
             color: white;
             margin-bottom: 0;
         }
@@ -193,7 +211,7 @@ section {
             color: white;
             width: 75%;
             margin-top: 3.5%;
-            font-size: 1.45vw;
+            font-size: 2.7vh;
             margin-left: auto;
             margin-right: auto;
             display: inline-block;
@@ -207,22 +225,22 @@ section {
 #conclusion {
     .underlineRed {
         margin-bottom: 0 !important;
-        border-bottom: .5vw solid red;
-        width: 30%;
-
+        border-bottom: 1.5vh solid red;
+        width: 50vh;
 
     }
 
     h1 {
-        font-size: 4vw;
+        font-size: 9vh;
         text-align: center;
         color: white;
         margin-bottom: 2.5%;
+        margin-top: 2.5%;
     }
 
     p {
         width: 70%;
-        font-size: 1.6vw;
+        font-size: 2.9vh;
         color: white;
         text-align: left;
         line-height: 1.7em;
@@ -258,6 +276,7 @@ section {
 
     p {
         color: white;
+        font-size: 2.3vh;
     }
 
     #contextImg {
@@ -276,7 +295,7 @@ section {
         top: 0;
         width: 35%;
         margin-left: 57.5%;
-        margin-top: -55%;
+        margin-top: -47.5%;
     }
 
     #contextText {
@@ -293,7 +312,7 @@ section {
         padding: 20;
         height: 40%;
         column-count: 3;
-        font-size: 18px;
+        font-size: 2.5vh;
         column-gap: 40px;
         column-rule-width: 1px;
 
@@ -328,7 +347,7 @@ section {
         top: 0;
         width: 40%;
         margin-left: 55%;
-        margin-top: -50%;
+        margin-top: -42.5%;
     }
 
     #claimTwoHeading {
@@ -346,7 +365,7 @@ section {
         background: url('../assets/individualizedracism.jpg');
         background-size: cover;
         margin-left: 7.5%;
-        margin-top: 5%;
+        margin-top: 3.5%;
         background-position: 50% 50%;
         box-shadow: 20px 40px 100px rgba(0, 0, 0, .2), 20px 40px 100px rgba(0, 0, 0, .2), 0 0 1px rgba(0, 0, 0, .2);
         border: white 4px solid;
@@ -375,7 +394,7 @@ section {
         color: black;
         line-height: 3.59259vh;
         width: 80%;
-        font-size: 1.05vw;
+        font-size: 2.125vh;
         margin-left: auto;
         margin-right: auto;
         padding: 10;
@@ -393,18 +412,16 @@ section {
 }
 
 .smallest {
-    width: 70vw;
-    min-width: 70vw;
+    width: 120vh;
 }
 
 .smaller {
-    width: 85vw;
-    min-width: 85vw;
+    width: 170vh;
 }
 
 .small {
-    width: 95vw;
-    min-width: 95vw;
+    width: 200vh;
+    min-width: 95vh;
 }
 
 
@@ -425,7 +442,6 @@ section {
 #section-police {
     background: url('../assets/StructuralRacismIllo2.JPG') no-repeat;
     background-size: cover;
-    width: 150vh !important;
 }
 
 
@@ -433,14 +449,12 @@ section {
     background: url('../assets/blacklivesmatterfist.png') no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    width: 150vh !important;
 }
 
 
 #section-individual {
     background: url('../assets/IndividualRacismIllo.JPG') no-repeat;
     background-size: cover;
-    width: 150vh !important;
 }
 
 ::-webkit-scrollbar {
@@ -450,7 +464,7 @@ section {
 #claimOneWall {
     .gallery_claim1 {
         display: grid;
-        grid-template-columns: repeat(3, 23.4vw);
+        grid-template-columns: repeat(3, 40vh);
         grid-template-rows: repeat(3, 33.333vh);
     }
 
@@ -475,7 +489,7 @@ section {
     }
 
     #panel3 {
-        background: url('../assets/wall1/whiteFragility_diangelo.jpg') 0% 0% / cover no-repeat;
+        background: url('../assets/wall1/whiteFragility_diangelo.jpg') 50% 50% / cover no-repeat;
         grid-row-start: 2;
         grid-row-end: 4;
     }
@@ -492,7 +506,7 @@ section {
     }
 
     #panel6 {
-        background: url('../assets/wall1/13th_duvernay.jpg') 0% 37.5% / cover no-repeat;
+        background: url('../assets/wall1/13th_duvernay.jpg') 100% 50% / cover no-repeat;
     }
 }
 
@@ -602,8 +616,8 @@ section {
 #claimThreeWall {
     .gallery_claim3 {
         display: grid;
-        grid-template-columns: repeat(3, 23.4vw);
-        grid-template-rows: repeat(3, 33.333vh);
+        grid-template-columns: repeat(3, 40vh);
+        grid-template-rows: repeat(3, 33.33vh);
     }
 
     #panel30 {
@@ -625,7 +639,7 @@ section {
     }
 
     #panel34 {
-        background: url('../assets/wall3/eloquentRage_cooper.jpg') 0% 10% / cover no-repeat;
+        background: url('../assets/wall3/eloquentRage_cooper.jpg') 0% 15% / cover no-repeat;
     }
 
     #panel35 {
