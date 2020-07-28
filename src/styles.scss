@@ -68,7 +68,7 @@ a:hover {
 
 #article {
     display: flex;
-    width: 2740vh;
+    width: 2650vh;
     height: 100vh;
     overflow: hidden;
 }
@@ -165,6 +165,7 @@ a:hover {
         background-position: 50% 85%;
         background-size: cover;
     }
+
     width:185vh;
 }
 
@@ -202,14 +203,14 @@ a:hover {
     #claimOneText {
         width: 90%;
         margin-left: 5%;
-        font-size: 10vh;
+        font-size: 8vh;
         margin-top: 0;
         line-height: 20.09259vh;
         letter-spacing: .015vh;
         color: white;
-        margin-top:-25vh;
-        text-align:center;
-        
+        margin-top: -25vh;
+        text-align: center;
+        font-family: 'Merriweather', serif;
     }
 
 
@@ -271,13 +272,14 @@ a:hover {
             letter-spacing: .015vh;
             color: white;
             margin-bottom: 0;
+            font-family: 'Merriweather', serif;
         }
 
         p {
             color: white;
             width: 75%;
             margin-top: 3.5%;
-            font-size: 2.7vh;
+            font-size: 2.3vh;
             margin-left: auto;
             margin-right: auto;
             display: inline-block;
@@ -306,10 +308,10 @@ a:hover {
 
     p {
         width: 70%;
-        font-size: 2.9vh;
+        font-size: 2.5vh;
         color: white;
         text-align: left;
-        line-height: 1.7em;
+        line-height: 1.65em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -321,7 +323,7 @@ a:hover {
 
     p {
         color: white;
-        font-size: 2.3vh;
+        font-size: 2.25vh;
     }
 
     #contextImg {
@@ -345,7 +347,7 @@ a:hover {
 
     #contextText {
         color: white;
-        line-height: 4.09259vh;
+        line-height: 4.5259vh;
         letter-spacing: .005em;
     }
 }
@@ -384,11 +386,12 @@ a:hover {
         margin-left: 2.5%;
         color: white;
         margin-top: 0;
-        font-size: 9vh;
+        font-size: 7vh;
         line-height: 16.09259vh;
         letter-spacing: .015vh;
         color: white;
-        text-align:center;
+        text-align: center;
+        font-family: 'Merriweather', serif;
     }
 
     #claimTwoBox {
@@ -431,7 +434,7 @@ a:hover {
         color: black;
         line-height: 3.59259vh;
         width: 80%;
-        font-size: 2.2vh;
+        font-size: 2.15vh;
         margin-left: auto;
         margin-right: auto;
         padding: 10;
@@ -672,7 +675,8 @@ a:hover {
         margin-left: 1.5%;
 
         #headline {
-            font-size: 30px;
+            font-size: 33px;
+            width: 65%;
         }
 
         p {
@@ -680,8 +684,12 @@ a:hover {
             width: 60%;
         }
 
+        .auth {
+            font-size: 3vh;
+        }
+
         .bylineInfo {
-            margin-top: 50vh;
+            margin-top: 22.5vh;
 
             .inline-credits span {
                 font-size: 12px;
@@ -729,6 +737,14 @@ a:hover {
             margin-left: 57.5%;
         }
     }
+
+    #claim1 {
+        #claimOneText {
+            line-height:20vh;
+            font-size:7.5vh;
+        }
+    }
+
     #claimOneInfo {
         #claimOneParagraphs {
             font-size: 2vh;
@@ -736,15 +752,19 @@ a:hover {
     }
 
     #claim2 {
-        #claimTwoBox {        
-            margin-top: -62.5%;
-          
+        #claimTwoBox {
+            margin-top: -63%;
+
+        }
+        #claimTwoImg {
+            margin-top:5%;
         }
         #claimTwoText {
-            font-size: 7vh;
-            line-height: 15vh;
+            font-size: 6.5vh;
+            line-height: 13vh;
         }
     }
+
     #claimTwoInfo {
         p {
             font-size: 2.2vh;
@@ -752,6 +772,7 @@ a:hover {
     }
 
     #claim3 {
+        margin-top:7.5%;
         p {
             font-size: 16vh;
             margin-bottom: 4%;
@@ -761,12 +782,13 @@ a:hover {
     #claimThreeInfo {
         #rev {
             h1 {
-                line-height: 17vh;
+                line-height: 16vh;
+                font-size:10vh;
             }
 
             p {
                 width: 75%;
-                font-size: 2.4vh;
+                font-size: 2.25vh;
             }
         }
     }
@@ -787,7 +809,7 @@ a:hover {
 
     #conclusion {
         p {
-            font-size: 2.45vh;
+            font-size: 2.225vh;
         }
     }
 
