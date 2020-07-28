@@ -1,6 +1,10 @@
 /* These styles help hide default site elements for a News story */
 
 // Unset Arc's Bootstrap box-sizing: border-box;
+#pb-root > article,
+#pb-root > article * {
+  box-sizing: unset;
+}
 
 #top {
   // UNCOMMENT next line to hide navbar
@@ -25,7 +29,7 @@
 
 #article-tags {
   // UNCOMMENT next line to hide article tags
-  // display: none;
+  display: none;
 }
 
 // Hide mobile share buttons at the bottom
@@ -58,7 +62,7 @@ html {
   margin: 0;
   width: 100%;
   padding: 0;
-
+  display:none;
   .pb-f-global-footer .footer {
     // Just for styling
     margin: 0;
@@ -68,4 +72,12 @@ html {
 // Overflows the page
 .pb-f-global-leaderboard-ad {
   display: none;
+}
+
+p {
+  margin: 10 0 0px !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700 !important;
 }
