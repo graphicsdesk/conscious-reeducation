@@ -1,7 +1,7 @@
 @import "styles/spectate";
 
 // Uncomment the following line before publishing a News story
-// @import "styles/news-ellipsis";
+@import "styles/news-ellipsis";
 
 
 .background-photo {
@@ -476,7 +476,7 @@ a:hover {
     .gallery_claim1 {
         display: grid;
         grid-template-columns: repeat(3, 40vh);
-        grid-template-rows: repeat(3, 33.333vh);
+        grid-template-rows: repeat(3, 33.33333vh);
     }
 
     #panel0 {
