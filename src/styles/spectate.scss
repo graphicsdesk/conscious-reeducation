@@ -86,7 +86,7 @@ b {
 
 .bylineInfo {
   position:relative;
-  margin-top:27.5vh;
+  margin-top:22.5vh;
 }
 
 .paragraph {
@@ -118,6 +118,9 @@ b {
   }
 }
 
+.bio {
+  margin-top:1.5vh;
+}
 .cover-hed {
   margin-bottom: 0;
 
@@ -173,8 +176,8 @@ header {
     font-size: 15vh;
     line-height: 1.15;
     font-weight: 500;
-    font-family: Playfair Display;
-    width:110%;
+    font-family: 'Oswald', sans-serif;
+    width:120%;
   }
 
   .deck {
@@ -183,6 +186,10 @@ header {
     line-height: 1.45;
     margin-bottom: 14px;
     text-align: center;
+  }
+
+  .auth {
+    font-size: 4.5vh;
   }
 
   .byline {
