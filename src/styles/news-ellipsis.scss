@@ -76,9 +76,12 @@ html {
 }
 
 p {
-  margin: 10 0 0px !important;
+  left:inherit;
+  right:inherit;
+  margin:inherit !important;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-weight: 700 !important;
+  font-weight: inherit !important;
+  line-height: auto;
 }

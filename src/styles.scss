@@ -99,8 +99,8 @@ a:hover {
 }
 
 .alignMargin {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .strikeout {
@@ -182,8 +182,8 @@ a:hover {
         font-size: 10vh;
         text-align: center;
         color: white;
-        margin-bottom: 2.5%;
-        margin-top: 0;
+        margin-bottom: 1.5% !important;
+        margin-top: 0 !important;
     }
 
     p {
@@ -192,8 +192,9 @@ a:hover {
         color: white;
         text-align: left;
         line-height: 1.7em;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top:5% !important;
     }
 }
 
@@ -205,7 +206,7 @@ a:hover {
         margin-left: 5%;
         font-size: 8vh;
         margin-top: 0;
-        line-height: 20.09259vh;
+        line-height: 20.09259vh !important;
         letter-spacing: .015vh;
         color: white;
         margin-top: 10vh;
@@ -244,8 +245,8 @@ a:hover {
         font-size: 17vh;
         color: white;
         position: relative;
-        top: 0;
-        margin-top: -1%;
+        top: 2.5%;
+        margin-top: 0%;
         margin-bottom: 2.5%;
         font-family: 'Merriweather', serif;
         font-weight: 700;
@@ -267,7 +268,7 @@ a:hover {
 
         h1 {
             font-size: 14vh;
-            margin-top: 0;
+            margin-top: 0 !important;
             line-height: 20.09259vh;
             letter-spacing: .015vh;
             color: white;
@@ -278,10 +279,10 @@ a:hover {
         p {
             color: white;
             width: 75%;
-            margin-top: 3.5%;
-            font-size: 2.3vh;
-            margin-left: auto;
-            margin-right: auto;
+            margin-top: 3.5% !important;
+            font-size: 2.35vh;
+            margin-left: auto !important;
+            margin-right: auto !important;
             display: inline-block;
             text-align: left;
         }
@@ -302,8 +303,8 @@ a:hover {
         font-size: 9vh;
         text-align: center;
         color: white;
-        margin-bottom: 2.5%;
-        margin-top: 2.5%;
+        margin-bottom: 2.5% !important;
+        margin-top: 2.5% !important;
     }
 
     p {
@@ -312,8 +313,9 @@ a:hover {
         color: white;
         text-align: left;
         line-height: 1.65em;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-top:2.5% !important;
+        margin-right: auto !important;
     }
 }
 
@@ -342,7 +344,7 @@ a:hover {
         top: 0;
         width: 35%;
         margin-left: 57.5%;
-        margin-top: -47.5%;
+        margin-top: -47%;
     }
 
     #contextText {
@@ -435,10 +437,10 @@ a:hover {
         line-height: 3.59259vh;
         width: 80%;
         font-size: 2.15vh;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
         padding: 10px;
-        margin-top: 0;
+        margin-top: 2% !important;
     }
 
     #claimTwoInfoImg {
@@ -732,7 +734,7 @@ a:hover {
         }
 
         #contextBox {
-            margin-top: -57%;
+            margin-top: -56%;
             width: 37.5%;
             margin-left: 57.5%;
         }
@@ -740,7 +742,7 @@ a:hover {
 
     #claim1 {
         #claimOneText {
-            line-height:20vh;
+            line-height:20vh !important;
             font-size:7.5vh;
         }
     }
@@ -772,7 +774,6 @@ a:hover {
     }
 
     #claim3 {
-        margin-top:7.5%;
         p {
             font-size: 16vh;
             margin-bottom: 4%;
@@ -784,6 +785,7 @@ a:hover {
             h1 {
                 line-height: 16vh;
                 font-size:10vh;
+                font-weight: bold;
             }
 
             p {
