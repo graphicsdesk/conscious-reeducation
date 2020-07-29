@@ -1,7 +1,6 @@
 import textBalancer from 'text-balancer';
 import initiatePage from './scripts/page';
 import { intersectTop } from './scripts/utils';
-import Rellax from 'rellax';
 import $ from "jquery";
 
 // Main page initiation
@@ -42,4 +41,12 @@ if (window.innerWidth <= 460) {
 }
 
 
+
+document.getElementsByClassName('alignMargin')[0].style.display = "none";
+document.getElementsByClassName('alignMargin')[2].style.display = "none";
+document.getElementById('claimOneText').innerHTML = "Structural Racism Goes Deeper Than You Think.";
+document.getElementById('claimTwoText').innerHTML = "Let's Better Understand How Individual Experiences Contextualize Racism.";
+
+document.getElementById('rev').getElementsByTagName('h1')[0].innerHTML = "The Need For"
+document.getElementById('rev').getElementsByTagName('h1')[1].innerHTML = "Revolution"
 
